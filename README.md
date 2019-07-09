@@ -1,7 +1,7 @@
 # webpack-uikit
 
 features:
-- uikit v3.0.0
+- 3.0.0-rc.10
 - less
 - es7, stage-0
 - jquery v3.3.1 (global variable $, import not needed)
