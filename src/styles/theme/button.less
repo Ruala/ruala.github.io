@@ -11,11 +11,11 @@
 @button-small-line-height:                      @global-control-small-height;
 @button-large-line-height:                      @global-control-large-height;
 
-@button-font-size:                              @global-font-size;
+@button-font-size:                              14px;
 @button-small-font-size:                        @global-small-font-size;
 @button-large-font-size:                        @global-medium-font-size;
 
-@button-padding-horizontal:                     @global-gutter;
+@button-padding-horizontal:                     25px;
 @button-small-padding-horizontal:               @global-small-gutter;
 @button-large-padding-horizontal:               @global-medium-gutter;
 
@@ -83,6 +83,7 @@
 // ========================================================================
 
 .hook-button() {
+    font-weight: bold;
     text-transform: @button-text-transform;
     transition: 0.1s ease-in-out;
     transition-property: color, background-color, border-color;
@@ -226,7 +227,7 @@
 @inverse-button-default-background:            transparent;
 @inverse-button-default-color:                 @inverse-global-emphasis-color;
 @inverse-button-default-hover-background:      transparent;
-@inverse-button-default-hover-color:           @inverse-global-emphasis-color;
+@inverse-button-default-hover-color:           #ccc;
 @inverse-button-default-active-background:     transparent;
 @inverse-button-default-active-color:          @inverse-global-emphasis-color;
 
@@ -234,7 +235,7 @@
 @inverse-button-text-hover-color:              @inverse-global-emphasis-color;
 
 .hook-inverse-button-default() { border-color: @inverse-global-color; }
-.hook-inverse-button-default-hover() { border-color: @inverse-global-emphasis-color; }
+.hook-inverse-button-default-hover() { border-color: @inverse-button-default-hover-color; }
 .hook-inverse-button-default-active() { border-color: @inverse-global-emphasis-color; }
 
 .hook-inverse-button-primary() {}
