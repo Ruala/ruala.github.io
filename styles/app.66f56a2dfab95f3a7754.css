@@ -11776,6 +11776,9 @@ iframe.uk-cover {
 body {
   transition: background-color 1s ease;
 }
+p {
+  font-family: 'PT Serif', serif;
+}
 .color-start {
   background-color: #fff;
 }
