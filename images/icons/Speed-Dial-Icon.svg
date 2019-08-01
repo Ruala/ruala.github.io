@@ -1,0 +1,13 @@
+<svg id="Speed_Dial_Icon.svg" data-name="Speed Dial Icon.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.4" height="70.4" viewBox="0 0 70.4 70.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Shape" class="cls-1" d="M7634.1,14790.9a35.2,35.2,0,1,1-35.2,35.2A35.226,35.226,0,0,1,7634.1,14790.9Zm0,8.8a26.4,26.4,0,1,1-26.4,26.4A26.388,26.388,0,0,1,7634.1,14799.7Zm-61.6,26.4h110v4.4h-110v-4.4Z" transform="translate(-7598.91 -14790.9)"/>
+  <image id="speed_dial_arrow" data-name="speed dial arrow" x="26.09" y="18.1" width="18" height="23" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAXCAYAAAAGAx/kAAAB5klEQVQ4jaWUXWiOYRjHf1s2H/OKlQiZtYOVA+TjhKUUJTmQHEkOFEUO5ciRFgc7pjhwoLQDOdSilmRqKQcUwqGPSUSmWbPtp3u7ntyevbN327+unue5r+v+P//r477rVOaBpcBIsvp5kKwHuoHnwBGSojlYh/pIHXMStxbMQckx4BywOVv7MRuiRcBZ4AzQWvI9rTWt1eolddCp+KruqYWkTb1e2v4hq89dtX2mrm0ELgMn43sIuAc8AUZjrR8YmE5Fo7pD7ctUfFevqSvVfnVUHVcPTsxiFZKF6gH1dRCk4C9qZ/g3ZGl9UrdMR3RK/ZgpGVBPZz85mvnuqC3ViFJnPoeKhDfqoSBI/mb1SkZ0Xq3kRPXqTfVbFvRQ3Z2RJFunvsxidql1BdEStUcdzgK61FVV0k71GImYd2pr4UuT3QXsL7V9J3AB+Ak8AO4DjcA2oCFiHod/ElUmtYxn6j61IdIvkJqyOFfUCbQDbUAFaIpnJf61CTgB/AqlCeOhaLgQVFxsy4CtQDOwHFgBrAUOAy3Ae+AVsDf2vQW2A4N5av+zi+pQKdXUlKtqU75vprN2G+grrf0GeuOK/YsaTv/x0mikgZ0YwtkoSugBbsT7GPDin9rUWKNkqSHpoHZHvdZMiVH+ACfmQHepOidMAAAAAElFTkSuQmCC"/>
+  <path id="Shape-2" data-name="Shape" class="cls-1" d="M7634.1,14795.3a30.8,30.8,0,1,1-30.8,30.8A30.807,30.807,0,0,1,7634.1,14795.3Zm0,13.2a17.6,17.6,0,1,1-17.6,17.6A17.613,17.613,0,0,1,7634.1,14808.5Zm-61.6-30.8h110v48.4h-110v-48.4Zm0,48.4h110v4.4h-110v-4.4Z" transform="translate(-7598.91 -14790.9)"/>
+</svg>
