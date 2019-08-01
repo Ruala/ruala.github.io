@@ -11923,6 +11923,10 @@ p {
 .tm-form .redesigned-theme-2018 .wufoo .info h2 {
   color: red !important;
 }
+.tm-pageheader .uk-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .tm-pageheader__box {
   max-width: 1200px;
   padding: 50px 20px;
