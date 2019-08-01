@@ -5,10 +5,33 @@ html {
     background-color: transparent;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
 #logo {
     display: none;
     background-image: none;
     background-color: transparent;
+}
+
+#container {
+    margin: 0 auto;
+    width: 870px;
+}
+
+form li.leftHalf, form li.rightHalf {
+    width: 49% !important;
+}
+
+form li {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+form li.buttons {
+    text-align: center;
 }
 
 #container, html.embed {
@@ -17,6 +40,11 @@ html {
 
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
     background: #eeeeee;
+}
+
+form.wufoo {
+    padding: 0;
+    margin: 0;
 }
 
 .wufoo .wufoo-dropdown .wufoo-dropdown-control {
@@ -51,6 +79,10 @@ html {
 
 .redesigned-theme-2018#container {
     border: 0 solid #ff0000;
+}
+
+.wufoo .info {
+    padding: 0;
 }
 
 .wufoo .info,.wufoo .paging-context {
@@ -164,6 +196,7 @@ html {
 }
 
 .wufoo label.desc, .wufoo legend.desc, .likert caption {
+    display: none;
     font-size: 110% !important;
     font-family: inherit;
     font-style: normal;
