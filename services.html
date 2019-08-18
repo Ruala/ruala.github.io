@@ -10,7 +10,7 @@
     <!--add font from google fonts-->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700&display=swap" rel="stylesheet">
 
-<link href="styles/app.d761e284389c8d8c416e.css" rel="stylesheet"><link href="styles/vendors.d761e284389c8d8c416e.css" rel="stylesheet"></head>
+<link href="styles/app.2cd49dfbe01a7dd5791b.css" rel="stylesheet"><link href="styles/vendors.2cd49dfbe01a7dd5791b.css" rel="stylesheet"></head>
 <body>
 
 <div class="uk-offcanvas-content">
@@ -27,8 +27,8 @@
                                 <!--logo-->
                                 <a class="uk-navbar-item uk-logo" href="/">
                                 <span>
-                                    <img class="logo-image_small" src="images/logo_small.png" alt="">
-                                    <img class="logo-image_big" src="images/logo_big.png" alt="">
+                                    <img class="logo-image_small" src="images/logo_small.svg" alt="">
+                                    <img class="logo-image_big" src="images/logo_big.svg" alt="">
                                 </span>
                                 </a>
                             </div>
@@ -59,11 +59,13 @@
             </header>
 
             <!-- Section Services -->
-            <div class="uk-section js-bg-panel" data-color="start">
-                <div class="uk-container">
+            <div class="uk-section uk-background-fixed uk-background-center-center uk-light"
+                 style="background-image: url(images/services_image.png);">
+                <div class="uk-overlay-primary uk-position-cover"></div>
+                <div class="uk-container uk-position-relative">
                     <h2>Services</h2>
 
-                    <ul class="tm-subnav uk-subnav uk-text-bold" uk-margin>
+                    <ul class="tm-subnav uk-subnav uk-text-bold text-secondary" uk-margin>
                         <li><a href="#ecommerce-section" uk-scroll>E-commerce</a></li>
                         <li><a href="#development-section" uk-scroll>Development</a></li>
                         <li><a href="#design-section" uk-scroll>Design</a></li>
@@ -81,19 +83,16 @@
                     </div>
 
                 </div>
-
-            </div>
-
-            <div class="uk-section uk-background-fixed uk-background-center-center uk-height-large"
-                 style="background-image: url(images/services_image.png);">
             </div>
 
             <!-- Section ECommerce -->
-            <div id="ecommerce-section" class="uk-section js-bg-panel" data-color="first">
-                <div class="uk-container">
+            <div id="ecommerce-section" class="uk-section uk-background-fixed uk-background-center-center uk-light"
+                 style="background-image: url(images/ecommerce_image.png);">
+                <div class="uk-overlay-primary uk-position-cover"></div>
+                <div class="uk-container uk-position-relative">
                     <div class="uk-child-width-1-2@l uk-grid uk-flex-middle" uk-grid>
                         <div>
-                            <h2>ECommerce</h2>
+                            <h2 class="text-secondary">ECommerce</h2>
                             <p>Featured Body Copy. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                                 ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis
@@ -150,140 +149,13 @@
                     </div>
 
                 </div>
-
             </div>
-
-            <div class="uk-section uk-background-fixed uk-background-center-center uk-height-large"
-                 style="background-image: url(images/ecommerce_image.png);">
-            </div>
-
-            <!-- Section Design -->
-            <div id="design-section" class="uk-section js-bg-panel uk-position-relative uk-overflow-hidden" data-color="second">
-                <div class="tm-background-dots">
-                    <img src="images/vector_dots.png" alt="">
-                </div>
-                
-                
-                <div class="uk-container uk-position-relative">
-                    <div class="uk-child-width-1-2@l uk-grid uk-flex-middle" uk-grid>
-                        <div>
-                            <h2>Design</h2>
-                            <p>Featured Body Copy. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis
-                            </p>
-                        </div>
-
-                        <div>
-                            <div class="uk-child-width-1-2@s uk-grid" uk-grid>
-                                <div>
-                                    <h5>Front-End</h5>
-                                    <p class="uk-text-small">We create unique user experiences with technical and analytical research to back
-                                        it up.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h5>UX/UI Design</h5>
-                                    <p class="uk-text-small">User research and data analysis goes into everything we do.We develop products
-                                        that look amazing and function exceptionally well for a reason.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h5>Wireframing & Prototyping</h5>
-                                    <p class="uk-text-small">We like to move fast. This allows us to do that while delivering the results our
-                                        clients demand.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h5>Responsive Design</h5>
-                                    <p class="uk-text-small">We deliver products that provide great user experiences and just work across all
-                                        devices.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h5>Brand Guidance</h5>
-                                    <p class="uk-text-small">There are right and wrong ways to use your brand assets. We can help you
-                                        establish the best way to apply consistent branding across multiple channels.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="uk-section uk-background-fixed uk-background-center-center uk-height-large"
-                 style="background-image: url(images/design_image.png);">
-            </div>
-
-            <!-- Section Strategy + Consulting -->
-            <div id="strategy-section" class="uk-section js-bg-panel" data-color="third">
-                <div class="uk-container">
-                    <div class="uk-child-width-1-2@l uk-grid uk-flex-middle" uk-grid>
-                        <div>
-                            <h2>Strategy + Consulting</h2>
-                            <p>Featured Body Copy. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis
-                            </p>
-                        </div>
-
-                        <div>
-                            <div class="uk-child-width-1-2@s uk-grid" uk-grid>
-                                <div>
-                                    <h5>Technology + Architecture</h5>
-                                    <p class="uk-text-small">We create unique user experiences with technical and analytical research to back
-                                        it up.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h5>Site Audits</h5>
-                                    <p class="uk-text-small">User research and data analysis goes into everything we do.We develop products
-                                        that look amazing and function exceptionally well for a reason.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h5>Content</h5>
-                                    <p class="uk-text-small">We like to move fast. This allows us to do that while delivering the results our
-                                        clients demand.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h5>Brand Strategy</h5>
-                                    <p class="uk-text-small">Before we were an agency, we helped bootstrap brands. We can help you develop a
-                                        strategy, determine the metrics for success, implement them and measure the
-                                        results.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="uk-section uk-background-fixed uk-background-center-center uk-height-large"
-                 style="background-image: url(images/ecommerce_image.png);">
-            </div>
-
 
             <!-- Section Development -->
-            <div id="development-section" class="uk-section js-bg-panel uk-light" data-color="fourth">
-                <div class="uk-container">
+            <div id="development-section" class="uk-section uk-background-fixed uk-background-center-center uk-light"
+                 style="background-image: url(images/services_image.png);">
+                <div class="uk-overlay-primary uk-position-cover"></div>
+                <div class="uk-container uk-position-relative">
                     <div class="uk-child-width-1-2@l uk-grid uk-flex-middle" uk-grid>
                         <div>
                             <h2>Development</h2>
@@ -345,6 +217,121 @@
                 </div>
             </div>
 
+            <!-- Section Design -->
+            <div id="design-section" class="uk-section uk-background-fixed uk-background-center-center uk-position-relative uk-overflow-hidden"
+                 style="background-image: url(images/design_image.png);">
+                <div class="uk-overlay-default uk-position-cover"></div>
+                <div class="tm-background-dots">
+                    <img src="images/vector_dots.png" alt="">
+                </div>
+                <div class="uk-container uk-position-relative">
+                    <div class="uk-child-width-1-2@l uk-grid uk-flex-middle" uk-grid>
+                        <div>
+                            <h2>Design</h2>
+                            <p>Featured Body Copy. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis
+                            </p>
+                        </div>
+
+                        <div>
+                            <div class="uk-child-width-1-2@s uk-grid" uk-grid>
+                                <div>
+                                    <h5>Front-End</h5>
+                                    <p class="uk-text-small">We create unique user experiences with technical and analytical research to back
+                                        it up.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <h5>UX/UI Design</h5>
+                                    <p class="uk-text-small">User research and data analysis goes into everything we do.We develop products
+                                        that look amazing and function exceptionally well for a reason.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <h5>Wireframing & Prototyping</h5>
+                                    <p class="uk-text-small">We like to move fast. This allows us to do that while delivering the results our
+                                        clients demand.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <h5>Responsive Design</h5>
+                                    <p class="uk-text-small">We deliver products that provide great user experiences and just work across all
+                                        devices.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <h5>Brand Guidance</h5>
+                                    <p class="uk-text-small">There are right and wrong ways to use your brand assets. We can help you
+                                        establish the best way to apply consistent branding across multiple channels.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Section Strategy + Consulting -->
+            <div id="strategy-section" class="uk-section uk-background-fixed uk-background-center-center"
+                 style="background-image: url(images/ecommerce_image.png);">
+                <div class="uk-overlay-default uk-position-cover"></div>
+                <div class="uk-container uk-position-relative">
+                    <div class="uk-child-width-1-2@l uk-grid uk-flex-middle" uk-grid>
+                        <div>
+                            <h2>Strategy + Consulting</h2>
+                            <p>Featured Body Copy. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis
+                            </p>
+                        </div>
+
+                        <div>
+                            <div class="uk-child-width-1-2@s uk-grid" uk-grid>
+                                <div>
+                                    <h5>Technology + Architecture</h5>
+                                    <p class="uk-text-small">We create unique user experiences with technical and analytical research to back
+                                        it up.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <h5>Site Audits</h5>
+                                    <p class="uk-text-small">User research and data analysis goes into everything we do.We develop products
+                                        that look amazing and function exceptionally well for a reason.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <h5>Content</h5>
+                                    <p class="uk-text-small">We like to move fast. This allows us to do that while delivering the results our
+                                        clients demand.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <h5>Brand Strategy</h5>
+                                    <p class="uk-text-small">Before we were an agency, we helped bootstrap brands. We can help you develop a
+                                        strategy, determine the metrics for success, implement them and measure the
+                                        results.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
         </div>
 
         <!--Footer-->
@@ -379,5 +366,5 @@
 
 </div>
 
-<script type="text/javascript" src="scripts/app.d761e284389c8d8c416e.js"></script><script type="text/javascript" src="scripts/vendors.d761e284389c8d8c416e.js"></script></body>
+<script type="text/javascript" src="scripts/app.2cd49dfbe01a7dd5791b.js"></script><script type="text/javascript" src="scripts/vendors.2cd49dfbe01a7dd5791b.js"></script></body>
 </html>
