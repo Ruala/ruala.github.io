@@ -8,292 +8,283 @@
     <title>MTN HAUS</title>
 
     <!--add font from google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Sans:400,700|PT+Serif:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:400,700&display=swap" rel="stylesheet">
 
-<link href="styles/app.f39843e834db10fbe9bc.css" rel="stylesheet"><link href="styles/vendors.f39843e834db10fbe9bc.css" rel="stylesheet"></head>
+
+<link href="styles/app.66a9e896a442324d0740.css" rel="stylesheet"><link href="styles/vendors.66a9e896a442324d0740.css" rel="stylesheet"></head>
 <body>
 
 <div class="uk-offcanvas-content">
-    <div class="uk-child-width-1-1 uk-height-viewport uk-flex uk-flex-wrap uk-flex-wrap-between uk-overflow-hidden">
-        <div>
+    <div class="uk-height-viewport uk-flex uk-flex-column uk-flex-between">
+        <div class="uk-position-relative">
 
             <!--Header-->
-            <header class="uk-navbar-container uk-light" uk-sticky="cls-active: uk-navbar-sticky">
+            <header class="uk-navbar-container uk-navbar-transparent uk-position-top">
                 <div class="uk-container">
-                    <nav class="uk-navbar" uk-navbar="mode: click">
+                    <nav class="uk-navbar" uk-navbar>
                         <div class="uk-navbar-left">
 
-                            <div class="logo-wrapper">
-                                <!--logo-->
-                                <a class="uk-navbar-item uk-logo" href="/">
-                                <span>
-                                    <img class="logo-image_small" src="images/logo_small.svg" alt="">
-                                    <img class="logo-image_big" src="images/logo_big.svg" alt="">
-                                </span>
-                                </a>
-                            </div>
+                            <!--mobile menu toggle-->
+                            <a href="#offcanvas-overlay" class="uk-navbar-toggle uk-hidden@l" uk-navbar-toggle-icon uk-toggle></a>
+
+                            <!--navbar menu-->
+                            <ul class="uk-navbar-nav uk-visible@l">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Technology</a></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="uk-navbar-center uk-visible@l">
+                            <!--logo-->
+                            <a class="uk-navbar-item uk-logo" href="/">
+                                <img src="images/logo.png" alt="">
+                            </a>
 
                         </div>
 
                         <div class="uk-navbar-right">
-
-                            <!--navbar menu-->
-                            <ul class="uk-navbar-nav uk-visible@l">
-                                <li><a href="services.html"><span>Services</span></a></li>
-                                <li><a href="technology.html"><span>Technology</span></a></li>
-                                <li><a href="about.html"><span>About</span></a></li>
-                            </ul>
-
                             <div class="uk-navbar-item uk-visible@l">
-                                <a href="#tm-form-section" class="uk-button uk-button-default" uk-scroll>Work with us</a>
+                                <a href="#tm-feedback" class="uk-button uk-button-primary" uk-scroll>Work with us</a>
                             </div>
-
-                            <!--mobile menu toggle-->
-                            <a href="#offcanvas-overlay" class="uk-navbar-toggle uk-hidden@l"
-                               uk-navbar-toggle-icon uk-toggle></a>
 
                         </div>
                     </nav>
                 </div>
             </header>
 
-            <!-- Section Pageheader -->
+            <!-- Slideshow -->
             <div class="tm-pageheader uk-section uk-padding-remove">
-                <div class="uk-position-relative uk-light" tabindex="-1" uk-slider="autoplay: true">
+                <div class="uk-position-relative uk-light" uk-slideshow="ratio: 2560:1600; animation: push">
 
-                    <ul class="uk-slider-items uk-child-width-1-1">
+                    <ul class="uk-slideshow-items">
                         <li>
-                            <div class="uk-section" style="background-image: url(images/slider-image-1.png);">
-                                <div class="uk-container">
-                                    <h2>Welcome to MTN Haus</h2>
+                            <img src="images/slide_1.jpg" alt="" uk-cover>
 
-                                    <div class="uk-grid" uk-grid>
-                                        <div class="uk-width-1-2@l">
-                                            <p class="uk-margin-large-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-                                                suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-                                                lacus vel facilisis.
-                                            </p>
+                            <div class="uk-container uk-position-relative">
+                                <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
+                                    <span>Engineered Solutions.</span>
+                                    <span class="uk-text-primary">On-Time. On Budget.</span>
+                                </h2>
+                                
+                                <div class="uk-grid uk-flex-center" uk-grid  uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
+                                    <div class="uk-width-4-5">
+                                        <p class="uk-width-xxlarge">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis.
+                                        </p>
 
-                                            <div>
-                                                <a href="#tm-form-section" class="uk-button uk-button-default" uk-scroll>Work with us</a>
-                                            </div>
-                                        </div>
-
+                                        <a href="" class="uk-button uk-button-primary">Get started</a>
                                     </div>
-
                                 </div>
+
                             </div>
+
                         </li>
 
                         <li>
-                            <div class="uk-section" style="background-image: url(images/slider-image-2.png);">
-                                <div class="uk-container">
-                                    <h2>Yeah, we’re full stack</h2>
+                            <img src="images/slide_1.jpg" alt="" uk-cover>
 
-                                    <div class="uk-grid" uk-grid>
-                                        <div class="uk-width-1-2@l">
-                                            <p class="uk-margin-large-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-                                                suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-                                                lacus vel facilisis.
-                                            </p>
+                            <div class="uk-container uk-position-relative">
+                                <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
+                                    <span>Engineered Solutions.</span>
+                                    <span class="uk-text-primary">On-Time. On Budget.</span>
+                                </h2>
 
-                                            <div>
-                                                <a href="services.html" class="uk-button uk-button-default">Learn more</a>
-                                            </div>
-                                        </div>
+                                <div class="uk-grid uk-flex-center" uk-grid  uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
+                                    <div class="uk-width-4-5">
+                                        <p class="uk-width-xxlarge">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis.
+                                        </p>
 
+                                        <a href="" class="uk-button uk-button-primary">Get started</a>
                                     </div>
-
                                 </div>
+
                             </div>
+
                         </li>
 
                         <li>
-                            <div class="uk-section" style="background-image: url(images/slider-image-3.png);">
-                                <div class="uk-container">
-                                    <h2>Technology</h2>
+                            <img src="images/slide_1.jpg" alt="" uk-cover>
 
-                                    <div class="uk-grid" uk-grid>
-                                        <div class="uk-width-1-2@l">
-                                            <p class="uk-margin-large-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-                                                suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-                                                lacus vel facilisis.
-                                            </p>
+                            <div class="uk-container uk-position-relative">
+                                <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
+                                    <span>Engineered Solutions.</span>
+                                    <span class="uk-text-primary">On-Time. On Budget.</span>
+                                </h2>
 
-                                            <div>
-                                                <a href="technology.html" class="uk-button uk-button-default">Find out</a>
-                                            </div>
-                                        </div>
+                                <div class="uk-grid uk-flex-center" uk-grid  uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
+                                    <div class="uk-width-4-5">
+                                        <p class="uk-width-xxlarge">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis.
+                                        </p>
 
+                                        <a href="" class="uk-button uk-button-primary">Get started</a>
                                     </div>
-
                                 </div>
+
                             </div>
+
                         </li>
 
                     </ul>
 
-                    <a class="uk-position-center-left" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                    <a class="uk-position-center-right" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
-                    <ul class="uk-position-large uk-position-bottom-center uk-slider-nav uk-dotnav uk-flex-center"></ul>
-
+                    <ul class="uk-slideshow-nav uk-dotnav uk-position-bottom-center uk-flex-center uk-margin"></ul>
                 </div>
 
             </div>
 
-            <!-- Section Technology Partners -->
-            <div class="uk-section js-bg-panel" data-color="first">
+            <!-- Technology partners -->
+            <div class="uk-section">
                 <div class="uk-container">
-                    <div class="uk-grid uk-flex-middle" uk-grid>
-                        <div class="uk-width-expand">
-                            <h2>Technology Partners</h2>
+                    <h2>
+                        <span>
+                            Technology Partners.
+                        </span>
+                        <span class="uk-text-primary">
+                            Lorem Ipsum.
+                        </span>
+                    </h2>
 
-                            <p class="uk-margin-large-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                                viverra maecenas accumsan lacus vel facilisis.
-                            </p>
+                    <div class="uk-grid" uk-grid>
+                        <div class="uk-width-1-2">
+                            <img src="images/logo_bg.png" alt="">
+                        </div>
 
+                        <div class="uk-width-2-5">
                             <div class="uk-child-width-1-2 uk-grid" uk-grid>
                                 <div>
-                                    <a href="#" class="uk-flex">
-                                        <img src="images/magento-logo.png" alt="">
-                                    </a>
+                                    <img src="images/magento-logo.png" alt="">
                                 </div>
+
                                 <div>
-                                    <a href="#" class="uk-flex">
-                                        <img src="images/shopify-logo.png" alt="">
-                                    </a>
+                                    <img src="images/shopify-logo.png" alt="">
                                 </div>
+
                             </div>
+                            
+                            <p class="">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                                Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                            </p>
 
-                        </div>
-
-                        <div class="uk-width-2-5@m uk-width-auto@xl">
-                            <img class="uk-width-1-1" src="images/MTNHaus-TechnologyPartners.jpg" alt="MTNHaus-TechnologyPartners">
                         </div>
 
                     </div>
 
                 </div>
-
             </div>
 
-            <!-- Section What We Do -->
-            <div class="tm-promotion uk-section uk-background-primary uk-light">
+            <!-- Capabilities -->
+            <div class="uk-section">
                 <div class="uk-container">
-                    <h2 class="uk-text-center uk-margin-large-bottom">What We Do</h2>
-
-                    <div class="uk-child-width-1-2@m uk-grid uk-grid-large" uk-grid>
-                        <div>
-                            <div class="uk-child-width-expand uk-grid uk-grid-small uk-flex-middle" uk-grid>
-                                <div class="uk-width-auto">
-                                    <div class="tm-promotion__icon">
-                                        <img src="images/icons/Pencil-Icon.svg" alt="">
+                    <div class="uk-child-width-1-2 uk-grid" uk-grid>
+                        <div class="">
+                            <h2 class="tm-h2_bordered">Capabilities</h2>
+                            
+                            <p class="">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                                Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                            </p>
+                        </div>
+                        
+                        <div class="">
+                            <div class="uk-child-width-1-2 uk-grid" uk-grid>
+                                <div>
+                                    <div class="">
+                                        <h6 class="uk-text-primary">New website builds</h6>
+                                        <p>Leave the technical stuff to us and focus on what you do best.</p>
                                     </div>
+
+                                    <div class="">
+                                        <h6 class="uk-text-primary">Performance optimization</h6>
+                                        <p>Every (mili) second counts. Already have a site and just want a better experience for your customers?</p>
+                                    </div>
+
+                                    <div class="">
+                                        <h6 class="uk-text-primary">Strategy & consulting</h6>
+                                        <p>Need a fresh set of eyes on your website, architecture, systems and processes?  We can help. </p>
+                                    </div>
+
                                 </div>
 
                                 <div>
-                                    <h6 class="uk-text-uppercase uk-margin-remove-bottom">New website builds</h6>
-                                    <p class="uk-margin-remove-top">Leave the technical stuff to us and focus on what you do best.</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="uk-child-width-expand uk-grid uk-grid-small uk-flex-middle" uk-grid>
-                                <div class="uk-width-auto">
-                                    <div class="tm-promotion__icon">
-                                        <img src="images/icons/HTML-Screen-Icon.svg" alt="">
+                                    <div class="">
+                                        <h6 class="uk-text-primary">Custom feature development</h6>
+                                        <p>Custom Modules and Extensions for Magento and Shopfiy tailored to your specific business needs needs</p>
                                     </div>
-                                </div>
 
-                                <div>
-                                    <h6 class="uk-text-uppercase uk-margin-remove-bottom">CUSTOM FEATURE DEVELOPMENT</h6>
-                                    <p class="uk-margin-remove-top">Custom Modules and Extensions for Magento and Shopfiy tailored to your specific business needs needs</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="uk-child-width-expand uk-grid uk-grid-small uk-flex-middle" uk-grid>
-                                <div class="uk-width-auto">
-                                    <div class="tm-promotion__icon">
-                                        <img src="images/icons/Speed-Dial-Icon.svg" alt="" uk-svg>
+                                    <div class="">
+                                        <h6 class="uk-text-primary">UX/UI design</h6>
+                                        <p>You only get one shot. Don't let weak design turn off your best customers.</p>
                                     </div>
-                                </div>
 
-                                <div>
-                                    <h6 class="uk-text-uppercase uk-margin-remove-bottom">PERFORMANCE OPTIMIZATION</h6>
-                                    <p class="uk-margin-remove-top">Every (mili) second counts. Already have a site and just want a better experience for your customers?</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="uk-child-width-expand uk-grid uk-grid-small uk-flex-middle" uk-grid>
-                                <div class="uk-width-auto">
-                                    <div class="tm-promotion__icon">
-                                        <img src="images/icons/Grid-Icon.svg" alt="">
+                                    <div class="">
+                                        <h6 class="uk-text-primary">Mobile application development</h6>
+                                        <p>iOS and Android apps - we have you covered. </p>
                                     </div>
-                                </div>
 
-                                <div>
-                                    <h6 class="uk-text-uppercase uk-margin-remove-bottom">UX/UI DESIGN</h6>
-                                    <p class="uk-margin-remove-top">You only get one shot. Don't let weak design turn off your customers.
-                                        best</p>
                                 </div>
-
                             </div>
+
                         </div>
-
-                        <div>
-                            <div class="uk-child-width-expand uk-grid uk-grid-small uk-flex-middle" uk-grid>
-                                <div class="uk-width-auto">
-                                    <div class="tm-promotion__icon">
-                                        <img src="images/icons/Strategy-Icon.svg" alt="">
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <h6 class="uk-text-uppercase uk-margin-remove-bottom">STRATEGY& CONSULTING</h6>
-                                    <p class="uk-margin-remove-top">Need a fresh set of eyes on your website, architecture, systems and processes? We can help. </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="uk-child-width-expand uk-grid uk-grid-small uk-flex-middle" uk-grid>
-                                <div class="uk-width-auto">
-                                    <div class="tm-promotion__icon">
-                                        <img src="images/icons/Mobile-Icon.svg" alt="">
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <h6 class="uk-text-uppercase uk-margin-remove-bottom">MOBILE APPLICATION DEVELOPMENT</h6>
-                                    <p class="uk-margin-remove-top">iOS and Android apps - we have you covered. </p>
-                                </div>
-
-                            </div>
-                        </div>
-                    
-
+                        
                     </div>
 
                 </div>
-
             </div>
+
+            <!-- Section -->
+            <div class="uk-section">
+                <div class="uk-container">
+                    <div class="uk-child-width-1-4 uk-grid uk-flex-middle" uk-grid>
+                        <div><a href=""><img src="images/wp-logo.png" alt=""></a></div>
+
+                        <div><a href=""><img src="images/google-analytics-logo.png" alt=""></a></div>
+
+                        <div><a href=""><img src="images/new-relic-logo.png" alt=""></a></div>
+
+                        <div><a href=""><img src="images/bazaarvoice-logo.png" alt=""></a></div>
+
+                    </div>
+
+                    <div class="uk-width-4-5">
+                        <h2 class="tm-h2_bordered">
+                            <span>Lorem ipsum dolor sit amet, sed do.</span>
+                            <span class="uk-text-primary">
+                                Quis ipsum suspendisse.
+                            </span>
+                        </h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
 
             <!-- Section Work with us -->
-            <div id="tm-form-section" class="uk-section js-bg-panel" data-color="start">
+            <div id="tm-feedback" class="uk-section">
                 <div class="uk-container uk-container-small">
 
                     <div id="wufoo-zc70bvd0043mjr"> Fill out my <a href="https://mtnhaus.wufoo.com/forms/zc70bvd0043mjr">online form</a>. </div> <script type="text/javascript"> var zc70bvd0043mjr; (function(d, t) { var s = d.createElement(t), options = { 'userName':'mtnhaus', 'formHash':'zc70bvd0043mjr', 'autoResize':true, 'height':'668', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { zc70bvd0043mjr = new WufooForm(); zc70bvd0043mjr.initialize(options); zc70bvd0043mjr.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
@@ -307,9 +298,9 @@
         </div>
 
         <!--Footer-->
-        <footer class="tm-footer uk-section uk-background-muted uk-light">
+        <footer class="uk-section">
             <div class="uk-container">
-                <div>&#169; 2019 MTNHaus Digital. All Rights Reserved.</div>
+
             </div>
         </footer>
     </div>
@@ -320,23 +311,14 @@
             <button class="uk-offcanvas-close" type="button" uk-close></button>
 
             <div class="uk-card uk-flex uk-flex-center">
-                <div>
-                    <ul class="uk-nav uk-margin">
-                        <li><a href="services.html"><span>Services</span></a></li>
-                        <li><a href="technology.html"><span>Technology</span></a></li>
-                        <li><a href="about.html"><span>About</span></a></li>
-                    </ul>
-                    <div>
-                        <a href="#" class="uk-button uk-button-default">Work with us</a>
-                    </div>
-                </div>
+                <ul class="uk-nav">
+                    <li><a href="#"></a></li>
+                </ul>
             </div>
         </div>
     </div>
 
-    <a class="uk-button uk-position-fixed uk-position-small uk-position-bottom-right" href="" uk-totop uk-scroll></a>
-
 </div>
 
-<script type="text/javascript" src="scripts/app.f39843e834db10fbe9bc.js"></script><script type="text/javascript" src="scripts/vendors.f39843e834db10fbe9bc.js"></script></body>
+<script type="text/javascript" src="scripts/app.66a9e896a442324d0740.js"></script><script type="text/javascript" src="scripts/vendors.66a9e896a442324d0740.js"></script></body>
 </html>
