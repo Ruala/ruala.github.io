@@ -8,10 +8,10 @@
     <title>MTN HAUS</title>
 
     <!--add font from google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif|Roboto:400,500,700,900&display=swap" rel="stylesheet">
 
 
-<link href="styles/app.66a9e896a442324d0740.css" rel="stylesheet"><link href="styles/vendors.66a9e896a442324d0740.css" rel="stylesheet"></head>
+<link href="styles/app.92aaf35286b374c5b4d2.css" rel="stylesheet"><link href="styles/vendors.92aaf35286b374c5b4d2.css" rel="stylesheet"></head>
 <body>
 
 <div class="uk-offcanvas-content">
@@ -19,58 +19,62 @@
         <div class="uk-position-relative">
 
             <!--Header-->
-            <header class="uk-navbar-container uk-navbar-transparent uk-position-top">
+            <header class="tm-header uk-navbar-container uk-navbar-transparent uk-position-top uk-position-z-index">
                 <div class="uk-container">
-                    <nav class="uk-navbar" uk-navbar>
-                        <div class="uk-navbar-left">
+                    <div class="uk-width-5-6 uk-margin-auto">
+                        <nav class="uk-navbar" uk-navbar>
+                            <div class="uk-navbar-left">
 
-                            <!--mobile menu toggle-->
-                            <a href="#offcanvas-overlay" class="uk-navbar-toggle uk-hidden@l" uk-navbar-toggle-icon uk-toggle></a>
+                                <!--mobile menu toggle-->
+                                <a href="#offcanvas-overlay" class="uk-navbar-toggle uk-hidden@l" uk-navbar-toggle-icon uk-toggle></a>
 
-                            <!--navbar menu-->
-                            <ul class="uk-navbar-nav uk-visible@l">
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Technology</a></li>
-                            </ul>
+                                <!--navbar menu-->
+                                <ul class="uk-navbar-nav uk-visible@l">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Technology</a></li>
+                                </ul>
 
-                        </div>
-
-                        <div class="uk-navbar-center uk-visible@l">
-                            <!--logo-->
-                            <a class="uk-navbar-item uk-logo" href="/">
-                                <img src="images/logo.png" alt="">
-                            </a>
-
-                        </div>
-
-                        <div class="uk-navbar-right">
-                            <div class="uk-navbar-item uk-visible@l">
-                                <a href="#tm-feedback" class="uk-button uk-button-primary" uk-scroll>Work with us</a>
                             </div>
 
-                        </div>
-                    </nav>
+                            <div class="uk-navbar-center uk-visible@l">
+                                <!--logo-->
+                                <a class="uk-navbar-item uk-logo" href="/">
+                                    <img class="uk-logo__image" src="images/logo.png" alt="">
+                                </a>
+
+                            </div>
+
+                            <div class="uk-navbar-right">
+                                <div class="uk-navbar-item uk-visible@l">
+                                    <a href="#tm-feedback" class="tm-header__button uk-button uk-button-primary" uk-scroll>Work with us</a>
+                                </div>
+
+                            </div>
+                        </nav>
+                    </div>
                 </div>
             </header>
 
             <!-- Slideshow -->
-            <div class="tm-pageheader uk-section uk-padding-remove">
-                <div class="uk-position-relative uk-light" uk-slideshow="ratio: 2560:1600; animation: push">
+            <div class="tm-slideshow uk-section uk-padding-remove">
+                <div class="uk-position-relative" uk-slideshow="ratio: 2560:1600;">
 
                     <ul class="uk-slideshow-items">
-                        <li>
+                        <li class="tm-slideshow__slide">
                             <img src="images/slide_1.jpg" alt="" uk-cover>
 
                             <div class="uk-container uk-position-relative">
-                                <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
-                                    <span>Engineered Solutions.</span>
-                                    <span class="uk-text-primary">On-Time. On Budget.</span>
-                                </h2>
-                                
-                                <div class="uk-grid uk-flex-center" uk-grid  uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
-                                    <div class="uk-width-4-5">
-                                        <p class="uk-width-xxlarge">
+                                <div class="uk-margin-medium-bottom" uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
+                                    <div class="uk-width-5-6 uk-margin-auto">
+                                        <h2 class="uk-margin-remove">Engineered Solutions.</h2>
+                                        <h2 class="uk-text-primary uk-margin-remove">On-Time. On Budget.</h2>
+                                    </div>
+                                </div>
+
+                                <div uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
+                                    <div class="uk-width-2-3 uk-margin-auto">
+                                        <p class="uk-width-medium">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                                             ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
@@ -80,23 +84,26 @@
                                         <a href="" class="uk-button uk-button-primary">Get started</a>
                                     </div>
                                 </div>
+
 
                             </div>
 
                         </li>
 
-                        <li>
+                        <li class="tm-slideshow__slide">
                             <img src="images/slide_1.jpg" alt="" uk-cover>
 
                             <div class="uk-container uk-position-relative">
-                                <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
-                                    <span>Engineered Solutions.</span>
-                                    <span class="uk-text-primary">On-Time. On Budget.</span>
-                                </h2>
+                                <div class="uk-margin-medium-bottom" uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
+                                    <div class="uk-width-5-6 uk-margin-auto">
+                                        <h2 class="uk-margin-remove">Engineered Solutions.</h2>
+                                        <h2 class="uk-text-primary uk-margin-remove">On-Time. On Budget.</h2>
+                                    </div>
+                                </div>
 
-                                <div class="uk-grid uk-flex-center" uk-grid  uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
-                                    <div class="uk-width-4-5">
-                                        <p class="uk-width-xxlarge">
+                                <div uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
+                                    <div class="uk-width-2-3 uk-margin-auto">
+                                        <p class="uk-width-medium">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                                             ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
@@ -106,23 +113,26 @@
                                         <a href="" class="uk-button uk-button-primary">Get started</a>
                                     </div>
                                 </div>
+
 
                             </div>
 
                         </li>
 
-                        <li>
+                        <li class="tm-slideshow__slide">
                             <img src="images/slide_1.jpg" alt="" uk-cover>
 
                             <div class="uk-container uk-position-relative">
-                                <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
-                                    <span>Engineered Solutions.</span>
-                                    <span class="uk-text-primary">On-Time. On Budget.</span>
-                                </h2>
+                                <div class="uk-margin-medium-bottom" uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
+                                    <div class="uk-width-5-6 uk-margin-auto">
+                                        <h2 class="uk-margin-remove">Engineered Solutions.</h2>
+                                        <h2 class="uk-text-primary uk-margin-remove">On-Time. On Budget.</h2>
+                                    </div>
+                                </div>
 
-                                <div class="uk-grid uk-flex-center" uk-grid  uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
-                                    <div class="uk-width-4-5">
-                                        <p class="uk-width-xxlarge">
+                                <div uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
+                                    <div class="uk-width-2-3 uk-margin-auto">
+                                        <p class="uk-width-medium">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                                             ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
@@ -132,6 +142,7 @@
                                         <a href="" class="uk-button uk-button-primary">Get started</a>
                                     </div>
                                 </div>
+
 
                             </div>
 
@@ -139,45 +150,43 @@
 
                     </ul>
 
-                    <ul class="uk-slideshow-nav uk-dotnav uk-position-bottom-center uk-flex-center uk-margin"></ul>
+                    <ul class="tm-slideshow__dotnav uk-slideshow-nav uk-dotnav uk-position-bottom-center uk-flex-center uk-margin-medium"></ul>
                 </div>
 
             </div>
 
             <!-- Technology partners -->
-            <div class="uk-section">
+            <div class="tm-technology uk-section">
                 <div class="uk-container">
-                    <h2>
-                        <span>
-                            Technology Partners.
-                        </span>
-                        <span class="uk-text-primary">
-                            Lorem Ipsum.
-                        </span>
-                    </h2>
+                    <div class="uk-width-5-6 uk-margin-auto uk-margin-medium-bottom">
+                        <h2 class="uk-margin-remove">Technology Partners.</h2>
+                        <h2 class="uk-text-primary uk-margin-remove">Lorem Ipsum.</h2>
+                    </div>
 
-                    <div class="uk-grid" uk-grid>
-                        <div class="uk-width-1-2">
-                            <img src="images/logo_bg.png" alt="">
+                    <div class="uk-child-width-1-2 uk-grid" uk-grid>
+                        <div>
+                            <img class="tm-technology__logo" src="images/logo_bg.png" alt="">
                         </div>
 
-                        <div class="uk-width-2-5">
-                            <div class="uk-child-width-1-2 uk-grid" uk-grid>
-                                <div>
-                                    <img src="images/magento-logo.png" alt="">
+                        <div>
+                            <div class="uk-width-medium">
+                                <div class="uk-child-width-1-2 uk-grid" uk-grid>
+                                    <div>
+                                        <img src="images/magento-logo.png" alt="">
+                                    </div>
+
+                                    <div>
+                                        <img src="images/shopify-logo.png" alt="">
+                                    </div>
+
                                 </div>
 
-                                <div>
-                                    <img src="images/shopify-logo.png" alt="">
-                                </div>
-
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                                    Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                </p>
                             </div>
-                            
-                            <p class="">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                                Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                            </p>
 
                         </div>
 
@@ -187,53 +196,57 @@
             </div>
 
             <!-- Capabilities -->
-            <div class="uk-section">
+            <div class="tm-capabilities uk-section uk-background-secondary">
                 <div class="uk-container">
                     <div class="uk-child-width-1-2 uk-grid" uk-grid>
-                        <div class="">
-                            <h2 class="tm-h2_bordered">Capabilities</h2>
-                            
-                            <p class="">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                                Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                            </p>
+                        <div>
+                            <div class="uk-grid uk-flex-center">
+                                <div class="uk-width-2-3">
+                                    <h2 class="tm-h_bordered">Capabilities</h2>
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                                        Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                         
-                        <div class="">
-                            <div class="uk-child-width-1-2 uk-grid" uk-grid>
+                        <div>
+                            <div class="tm-capabilities__items uk-child-width-1-2 uk-grid uk-text-muted" uk-grid>
                                 <div>
-                                    <div class="">
-                                        <h6 class="uk-text-primary">New website builds</h6>
-                                        <p>Leave the technical stuff to us and focus on what you do best.</p>
+                                    <div>
+                                        <h6 class="uk-text-primary uk-margin-remove">New website builds</h6>
+                                        <p class="uk-margin-remove-top uk-margin-bottom">Leave the technical stuff to us and focus on what you do best.</p>
                                     </div>
 
-                                    <div class="">
-                                        <h6 class="uk-text-primary">Performance optimization</h6>
-                                        <p>Every (mili) second counts. Already have a site and just want a better experience for your customers?</p>
+                                    <div>
+                                        <h6 class="uk-text-primary uk-margin-remove">Performance optimization</h6>
+                                        <p class="uk-margin-remove-top uk-margin-bottom">Every (mili) second counts. Already have a site and just want a better experience for your customers?</p>
                                     </div>
 
-                                    <div class="">
-                                        <h6 class="uk-text-primary">Strategy & consulting</h6>
-                                        <p>Need a fresh set of eyes on your website, architecture, systems and processes?  We can help. </p>
+                                    <div>
+                                        <h6 class="uk-text-primary uk-margin-remove">Strategy & consulting</h6>
+                                        <p class="uk-margin-remove-top uk-margin-bottom">Need a fresh set of eyes on your website, architecture, systems</p>
                                     </div>
 
                                 </div>
 
                                 <div>
-                                    <div class="">
-                                        <h6 class="uk-text-primary">Custom feature development</h6>
-                                        <p>Custom Modules and Extensions for Magento and Shopfiy tailored to your specific business needs needs</p>
+                                    <div>
+                                        <h6 class="uk-text-primary uk-margin-remove">Custom feature development</h6>
+                                        <p class="uk-margin-remove-top uk-margin-bottom">Custom Modules and Extensions for Magento and Shopfiy tailored to your specific business needs needs</p>
                                     </div>
 
-                                    <div class="">
-                                        <h6 class="uk-text-primary">UX/UI design</h6>
-                                        <p>You only get one shot. Don't let weak design turn off your best customers.</p>
+                                    <div>
+                                        <h6 class="uk-text-primary uk-margin-remove">UX/UI design</h6>
+                                        <p class="uk-margin-remove-top uk-margin-bottom">You only get one shot. Don't let weak design turn off your best customers.</p>
                                     </div>
 
-                                    <div class="">
-                                        <h6 class="uk-text-primary">Mobile application development</h6>
-                                        <p>iOS and Android apps - we have you covered. </p>
+                                    <div>
+                                        <h6 class="uk-text-primary uk-margin-remove">Mobile application development</h6>
+                                        <p class="uk-margin-remove-top uk-margin-bottom">iOS and Android apps - we have you covered. </p>
                                     </div>
 
                                 </div>
@@ -246,30 +259,28 @@
                 </div>
             </div>
 
-            <!-- Section -->
-            <div class="uk-section">
+            <!-- Section Promotes -->
+            <div class="tm-promotes uk-section">
                 <div class="uk-container">
-                    <div class="uk-child-width-1-4 uk-grid uk-flex-middle" uk-grid>
-                        <div><a href=""><img src="images/wp-logo.png" alt=""></a></div>
+                    <div class="tm-promotes__logos uk-width-5-6 uk-margin-auto">
+                        <div class="uk-child-width-auto uk-grid uk-flex-middle uk-flex-between" uk-grid>
+                            <div><a href=""><img src="images/wp-logo.png" width="180" alt=""></a></div>
 
-                        <div><a href=""><img src="images/google-analytics-logo.png" alt=""></a></div>
+                            <div><a href=""><img src="images/google-analytics-logo.png" width="195" alt=""></a></div>
 
-                        <div><a href=""><img src="images/new-relic-logo.png" alt=""></a></div>
+                            <div><a href=""><img src="images/new-relic-logo.png" width="164" alt=""></a></div>
 
-                        <div><a href=""><img src="images/bazaarvoice-logo.png" alt=""></a></div>
+                            <div><a href=""><img src="images/bazaarvoice-logo.png" width="182.5" alt=""></a></div>
+
+                        </div>
 
                     </div>
 
-                    <div class="uk-width-4-5">
-                        <h2 class="tm-h2_bordered">
-                            <span>Lorem ipsum dolor sit amet, sed do.</span>
-                            <span class="uk-text-primary">
-                                Quis ipsum suspendisse.
-                            </span>
-                        </h2>
+                    <div class="uk-width-2-3 uk-margin-auto uk-margin-medium-bottom">
+                        <h3 class="uk-margin-remove">Lorem ipsum dolor sit amet, sed do.</h3>
+                        <h3 class="tm-h_bordered uk-text-primary uk-margin-remove">Quis ipsum suspendisse.</h3>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-
+                        <p class="uk-text-lead uk-margin-remove-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
 
                     </div>
 
@@ -281,13 +292,14 @@
 
 
 
-
-
             <!-- Section Work with us -->
             <div id="tm-feedback" class="uk-section">
-                <div class="uk-container uk-container-small">
+                <div class="uk-container">
+                    <div class="uk-width-2-3 uk-margin-auto">
 
-                    <div id="wufoo-zc70bvd0043mjr"> Fill out my <a href="https://mtnhaus.wufoo.com/forms/zc70bvd0043mjr">online form</a>. </div> <script type="text/javascript"> var zc70bvd0043mjr; (function(d, t) { var s = d.createElement(t), options = { 'userName':'mtnhaus', 'formHash':'zc70bvd0043mjr', 'autoResize':true, 'height':'668', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { zc70bvd0043mjr = new WufooForm(); zc70bvd0043mjr.initialize(options); zc70bvd0043mjr.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
+                        <div id="wufoo-zc70bvd0043mjr"> Fill out my <a href="https://mtnhaus.wufoo.com/forms/zc70bvd0043mjr">online form</a>. </div> <script type="text/javascript"> var zc70bvd0043mjr; (function(d, t) { var s = d.createElement(t), options = { 'userName':'mtnhaus', 'formHash':'zc70bvd0043mjr', 'autoResize':true, 'height':'668', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { zc70bvd0043mjr = new WufooForm(); zc70bvd0043mjr.initialize(options); zc70bvd0043mjr.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
+
+                    </div>
 
                 </div>
 
@@ -298,8 +310,35 @@
         </div>
 
         <!--Footer-->
-        <footer class="uk-section">
+        <footer class="tm-footer uk-section">
             <div class="uk-container">
+                <div class="uk-width-5-6 uk-margin-auto">
+                    <div class="uk-child-width-auto uk-grid uk-flex-between uk-flex-middle" uk-grid>
+                        <div>
+                            <ul class="tm-footer__nav uk-subnav uk-margin-bottom" uk-margin>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/twitter-icon.png" width="20" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/linkedIn-icon.png" width="18" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div>© 2019 MTN Haus, LLC. All Rights Reserved.</div>
+                        </div>
+
+                        <div>
+                            <img src="images/logo_footer.png" width="53" alt="">
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
         </footer>
@@ -320,5 +359,5 @@
 
 </div>
 
-<script type="text/javascript" src="scripts/app.66a9e896a442324d0740.js"></script><script type="text/javascript" src="scripts/vendors.66a9e896a442324d0740.js"></script></body>
+<script type="text/javascript" src="scripts/app.92aaf35286b374c5b4d2.js"></script><script type="text/javascript" src="scripts/vendors.92aaf35286b374c5b4d2.js"></script></body>
 </html>
