@@ -1,10 +1,643 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-<link href="styles/app.2b43e0a9a3c9c6493b34.css" rel="stylesheet"><link href="styles/vendors.2b43e0a9a3c9c6493b34.css" rel="stylesheet"></head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MTN HAUS</title>
+
+    <!--add font from google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif|Roboto:400,500,700,900&display=swap" rel="stylesheet">
+
+<link href="styles/app.d6b4eb03336f5a491515.css" rel="stylesheet"><link href="styles/vendors.d6b4eb03336f5a491515.css" rel="stylesheet"></head>
 <body>
 
-<script type="text/javascript" src="scripts/app.2b43e0a9a3c9c6493b34.js"></script><script type="text/javascript" src="scripts/vendors.2b43e0a9a3c9c6493b34.js"></script></body>
+<div class="uk-offcanvas-content">
+    <div class="uk-height-viewport uk-flex uk-flex-column uk-flex-between">
+        <div class="uk-position-relative">
+
+            <!--Header-->
+            <header class="tm-header uk-navbar-container uk-navbar-transparent uk-position-top uk-position-z-index">
+                <div class="uk-container">
+                    <div class="uk-width-5-6 uk-margin-auto">
+                        <nav class="uk-navbar" uk-navbar>
+                            <div class="uk-navbar-left">
+
+                                <!--mobile menu toggle-->
+                                <a href="#offcanvas-overlay" class="uk-navbar-toggle uk-hidden@l" uk-navbar-toggle-icon uk-toggle></a>
+
+                                <!--navbar menu-->
+                                <ul class="uk-navbar-nav uk-visible@l">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="technology.html">Technology</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="uk-navbar-center uk-visible@l">
+                                <!--logo-->
+                                <a class="uk-navbar-item uk-logo" href="/">
+                                    <img class="uk-logo__image" src="images/logo.png" alt="">
+                                </a>
+
+                            </div>
+
+                            <div class="uk-navbar-right">
+                                <div class="uk-navbar-item uk-visible@l">
+                                    <a href="#tm-feedback" class="tm-header__button uk-button uk-button-primary" uk-scroll>Work with us</a>
+                                </div>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Pageheader -->
+            <div class="tm-pageheader tm-pageheader_services uk-section uk-background-secondary">
+                <div class="uk-container uk-position-relative">
+                    <img class="tm-pageheader__logo tm-pageheader__logo_services" src="images/logo-part_bg.png" width="265" alt="">
+
+                    <div class="uk-width-5-6 uk-margin-auto">
+                        <div class="uk-grid uk-flex-middle" uk-grid>
+                            <div class="uk-width-expand">
+                                <h2 class="uk-margin-remove">Services that are solutions</h2>
+                                <h2 class="uk-text-primary uk-margin-remove">that drive business.</h2>
+                            </div>
+
+                            <div class="uk-width-1-5">
+                                <ul class="tm-pageheader__list uk-list">
+                                    <li>eCommerce</li>
+                                    <li>Development</li>
+                                    <li>Design</li>
+                                    <li>Strategy + Consulting</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Section Improvement -->
+            <div class="tm-improvement tm-improvement_services uk-section" style="background-image: url('images/improvement-services_bg-1.jpg')">
+                <div class="uk-container">
+                    <div class="uk-width-5-6 uk-margin-auto">
+                        <h2 class="uk-margin-remove">Lorem ipsum dolor sit amet</h2>
+                        <h2 class="uk-text-primary">Sed do quis isum suspendisse.</h2>
+
+                        <div class="tm-improvement__box tm-bg_muted">
+                            <div class="uk-grid uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <p class="uk-width-medium">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                        gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                    </p>
+                                </div>
+
+                                <div class="uk-width-expand uk-flex uk-flex-right">
+                                    <table class="tm-improvement__table tm-improvement__table_services uk-table uk-table-middle uk-table-divider">
+                                        <tbody>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="tm-checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Section Building -->
+            <div class="tm-building tm-building_services uk-section">
+                <div class="uk-container">
+                    <div class="uk-width-5-6 uk-margin-auto">
+                        <div class="uk-child-width-1-2 uk-grid uk-flex-bottom" uk-grid>
+                            <div>
+                                <h2 class="tm-h_bordered">eCommerce</h2>
+
+                                <p class="uk-width-medium">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                    gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                </p>
+                            </div>
+
+                            <div>
+                                <ul class="tm-building__list uk-list">
+                                    <li>
+                                        <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
+                                        <p class="uk-margin-remove">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
+                                        <p class="uk-margin-remove">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Section with slider -->
+            <div class="tm-bg_muted uk-section uk-padding-remove">
+                <div class="uk-container">
+                    <div class="uk-width-5-6 uk-margin-auto">
+                        <div class="uk-child-width-1-2 uk-grid" uk-grid>
+                            <div>
+                                <div class="tm-slider-sidebar">
+                                    <div class="uk-margin-medium-bottom">
+                                        <img class="uk-logo__image" src="images/logo_blue.png" width="61" alt="">
+                                    </div>
+
+                                    <h2 class="uk-margin-remove">Lorem Ipsum.</h2>
+                                    <h2 class="uk-text-primary">Second Line.</h2>
+
+                                    <div class="uk-width-4-5 uk-flex uk-flex-right uk-margin-auto">
+                                        <div>
+                                            <p class="uk-width-medium">
+                                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                                gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.”
+                                            </p>
+
+                                            <a href="" class="uk-button uk-button-primary">Get started</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="uk-flex">
+                                <div class="tm-cover-slider uk-width-1-1 uk-flex uk-position-relative" tabindex="-1" uk-slider>
+
+                                    <ul class="uk-slider-items uk-width-1-1 uk-child-width-1-1">
+                                        <li class="tm-cover-slider__item" style="background-image: url('images/service-slide_1.jpg')"></li>
+
+                                        <li class="tm-cover-slider__item" style="background-image: url('images/service-slide_1.jpg')"></li>
+
+                                    </ul>
+
+                                    <a class="uk-slidenav uk-slidenav-previous" href="#" uk-slider-item="previous">
+                                        <img src="images/left-arrow.png" width="15" alt="">
+                                    </a>
+                                    <a class="uk-slidenav uk-slidenav-next" href="#" uk-slider-item="next">
+                                        <img src="images/right-arrow.png" width="15" alt="">
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Section Improvement -->
+            <div class="tm-improvement tm-improvement_services uk-section" style="background-image: url('images/improvement-services_bg-2.jpg')">
+                <div class="uk-container">
+                    <div class="uk-width-5-6 uk-margin-auto">
+                        <h2 class="uk-margin-remove">Lorem ipsum dolor sit amet</h2>
+                        <h2 class="uk-text-primary">Sed do quis isum suspendisse.</h2>
+
+                        <div class="tm-improvement__box tm-bg_muted">
+                            <div class="uk-grid uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <p class="uk-width-medium">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                        gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                    </p>
+                                </div>
+
+                                <div class="uk-width-expand uk-flex uk-flex-right">
+                                    <table class="tm-improvement__table tm-improvement__table_services uk-table uk-table-middle uk-table-divider">
+                                        <tbody>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="tm-checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Section Building -->
+            <div class="tm-building tm-building_services uk-section">
+                <div class="uk-container">
+                    <div class="uk-width-5-6 uk-margin-auto">
+                        <div class="uk-child-width-1-2 uk-grid uk-flex-bottom" uk-grid>
+                            <div>
+                                <h2 class="tm-h_bordered">Development</h2>
+
+                                <p class="uk-width-medium">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                    gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                </p>
+                            </div>
+
+                            <div>
+                                <ul class="tm-building__list uk-list">
+                                    <li>
+                                        <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
+                                        <p class="uk-margin-remove">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
+                                        <p class="uk-margin-remove">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Section Improvement -->
+            <div class="tm-improvement tm-improvement_services uk-section" style="background-image: url('images/improvement-services_bg-3.jpg')">
+                <div class="uk-container">
+                    <div class="uk-width-5-6 uk-margin-auto">
+                        <h2 class="uk-margin-remove">Lorem ipsum dolor sit amet</h2>
+                        <h2 class="uk-text-primary">Sed do quis isum suspendisse.</h2>
+
+                        <div class="tm-improvement__box tm-bg_muted">
+                            <div class="uk-grid uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <p class="uk-width-medium">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                        gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                    </p>
+                                </div>
+
+                                <div class="uk-width-expand uk-flex uk-flex-right">
+                                    <table class="tm-improvement__table tm-improvement__table_services uk-table uk-table-middle uk-table-divider">
+                                        <tbody>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="tm-checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Section Building -->
+            <div class="tm-building tm-building_services tm-text-white uk-section uk-background-secondary">
+                <div class="uk-container">
+                    <div class="uk-width-5-6 uk-margin-auto">
+                        <div class="uk-child-width-1-2 uk-grid uk-flex-bottom" uk-grid>
+                            <div>
+                                <h2 class="tm-h_bordered">Development</h2>
+
+                                <p class="uk-width-medium">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                    gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                </p>
+                            </div>
+
+                            <div>
+                                <ul class="tm-building__list uk-list">
+                                    <li>
+                                        <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
+                                        <p class="uk-margin-remove">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
+                                        <p class="uk-margin-remove">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Section Improvement -->
+            <div class="tm-improvement tm-improvement_services uk-section" style="background-image: url('images/improvement-services_bg-4.jpg')">
+                <div class="uk-container">
+                    <div class="uk-width-5-6 uk-margin-auto">
+                        <h2 class="uk-margin-remove">Lorem ipsum dolor sit amet</h2>
+                        <h2 class="uk-text-primary">Sed do quis isum suspendisse.</h2>
+
+                        <div class="tm-improvement__box tm-bg_muted">
+                            <div class="uk-grid uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <p class="uk-width-medium">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                        gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                    </p>
+                                </div>
+
+                                <div class="uk-width-expand uk-flex uk-flex-right">
+                                    <table class="tm-improvement__table tm-improvement__table_services uk-table uk-table-middle uk-table-divider">
+                                        <tbody>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="uk-text-primary">
+                                                <img class="tm-checkbox-image" src="images/checkbox.png" width="27" alt="">
+                                            </th>
+                                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                                        </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Section Building -->
+            <div class="tm-building tm-building_services uk-section">
+                <div class="uk-container">
+                    <div class="uk-width-5-6 uk-margin-auto">
+                        <div class="uk-child-width-1-2 uk-grid uk-flex-bottom" uk-grid>
+                            <div>
+                                <h2 class="tm-h_bordered">
+                                    Strategy + <br>
+                                    Consulting
+                                </h2>
+
+                                <p class="uk-width-medium">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                    gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                </p>
+                            </div>
+
+                            <div>
+                                <ul class="tm-building__list uk-list">
+                                    <li>
+                                        <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
+                                        <p class="uk-margin-remove">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
+                                        <p class="uk-margin-remove">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                            facilisis.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- Section Work with us -->
+            <div id="tm-feedback" class="uk-section">
+                <div class="uk-container">
+                    <div class="uk-width-2-3 uk-margin-auto">
+
+                        <div id="wufoo-zc70bvd0043mjr"> Fill out my <a href="https://mtnhaus.wufoo.com/forms/zc70bvd0043mjr">online form</a>. </div> <script type="text/javascript"> var zc70bvd0043mjr; (function(d, t) { var s = d.createElement(t), options = { 'userName':'mtnhaus', 'formHash':'zc70bvd0043mjr', 'autoResize':true, 'height':'668', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { zc70bvd0043mjr = new WufooForm(); zc70bvd0043mjr.initialize(options); zc70bvd0043mjr.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Footer-->
+        <footer class="tm-footer uk-section">
+            <div class="uk-container">
+                <div class="uk-width-5-6 uk-margin-auto">
+                    <div class="uk-child-width-auto uk-grid uk-flex-between uk-flex-middle" uk-grid>
+                        <div>
+                            <ul class="tm-footer__nav uk-subnav uk-margin-bottom" uk-margin>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/twitter-icon.png" width="20" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/linkedIn-icon.png" width="18" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div>© 2019 MTN Haus, LLC. All Rights Reserved.</div>
+                        </div>
+
+                        <div>
+                            <img src="images/logo_footer.png" width="53" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <!-- Off-canvas -->
+    <div id="offcanvas-overlay" uk-offcanvas="mode: push; overlay: true">
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+            <div class="uk-card uk-flex uk-flex-center">
+                <ul class="uk-nav">
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="scripts/app.d6b4eb03336f5a491515.js"></script><script type="text/javascript" src="scripts/vendors.d6b4eb03336f5a491515.js"></script></body>
 </html>
