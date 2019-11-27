@@ -8,9 +8,9 @@
     <title>MTN HAUS</title>
 
     <!--add font from google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif|Roboto:400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:400,500,700,900&display=swap" rel="stylesheet">
 
-<link href="styles/app.d6b4eb03336f5a491515.css" rel="stylesheet"><link href="styles/vendors.d6b4eb03336f5a491515.css" rel="stylesheet"></head>
+<link href="styles/app.238c1d70da85fccb5458.css" rel="stylesheet"><link href="styles/vendors.238c1d70da85fccb5458.css" rel="stylesheet"></head>
 <body>
 
 <div class="uk-offcanvas-content">
@@ -343,19 +343,35 @@
     </div>
 
     <!-- Off-canvas -->
-    <div id="offcanvas-overlay" uk-offcanvas="mode: push; overlay: true">
+    <div id="offcanvas-overlay" class="tm-offcanvas uk-width-1-1" uk-offcanvas>
         <div class="uk-offcanvas-bar">
-            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <button class="uk-offcanvas-close uk-button uk-button-link" type="button">
+                <img src="images/close.png" width="36" alt="">
+            </button>
 
-            <div class="uk-card uk-flex uk-flex-center">
-                <ul class="uk-nav">
-                    <li><a href="#"></a></li>
-                </ul>
+            <div class="uk-card uk-flex uk-flex-center uk-text-center">
+                <div>
+                    <div class="uk-margin-large-bottom">
+                        <a class="uk-display-inline-block" href="/">
+                            <img class="tm-logo-image" src="images/logo.png" width="61" alt="">
+                        </a>
+                    </div>
+
+                    <ul class="tm-offcanvas__nav uk-nav uk-margin-large-bottom" uk-margin="margin: uk-margin-large-top">
+                        <li><a href="#">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="technology.html">Technology</a></li>
+                    </ul>
+
+                    <div>
+                        <a href="#tm-feedback" class="tm-offcanvas__button uk-button uk-button-primary" uk-scroll>Work with us</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
 </div>
 
-<script type="text/javascript" src="scripts/app.d6b4eb03336f5a491515.js"></script><script type="text/javascript" src="scripts/vendors.d6b4eb03336f5a491515.js"></script></body>
+<script type="text/javascript" src="scripts/app.238c1d70da85fccb5458.js"></script><script type="text/javascript" src="scripts/vendors.238c1d70da85fccb5458.js"></script></body>
 </html>

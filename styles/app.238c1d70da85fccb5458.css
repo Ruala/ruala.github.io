@@ -286,7 +286,7 @@ h4,
 h5,
 .uk-h5 {
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 2;
 }
 h6,
 .uk-h6 {
@@ -1859,7 +1859,7 @@ select.uk-form-width-xsmall {
   text-align: center;
   /* 9 */
   text-decoration: none;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   transition: 0.1s ease-in-out;
@@ -5506,11 +5506,11 @@ ul.uk-nav-sub {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: -270px;
+  left: -100%;
   /* 2 */
   box-sizing: border-box;
-  width: 270px;
-  padding: 20px 20px;
+  width: 100%;
+  padding: 10px 10px;
   background: #093251;
   /* 3 */
   overflow-y: auto;
@@ -5519,20 +5519,20 @@ ul.uk-nav-sub {
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
   .uk-offcanvas-bar {
-    left: -350px;
-    width: 350px;
-    padding: 40px 40px;
+    left: -100%;
+    width: 100%;
+    padding: 10px 10px;
   }
 }
 /* Flip modifier */
 .uk-offcanvas-flip .uk-offcanvas-bar {
   left: auto;
-  right: -270px;
+  right: -100%;
 }
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
   .uk-offcanvas-flip .uk-offcanvas-bar {
-    right: -350px;
+    right: -100%;
   }
 }
 /*
@@ -5583,12 +5583,12 @@ ul.uk-nav-sub {
   right: 0;
 }
 .uk-open > .uk-offcanvas-reveal {
-  width: 270px;
+  width: 100%;
 }
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
   .uk-open > .uk-offcanvas-reveal {
-    width: 350px;
+    width: 100%;
   }
 }
 /*
@@ -5604,8 +5604,8 @@ ul.uk-nav-sub {
 .uk-offcanvas-close {
   position: absolute;
   z-index: 1000;
-  top: 20px;
-  right: 20px;
+  top: 25px;
+  right: 25px;
   padding: 5px;
 }
 /* Overlay
@@ -5671,18 +5671,18 @@ ul.uk-nav-sub {
  * Activate slide-out animation
  */
 :not(.uk-offcanvas-flip).uk-offcanvas-container-animation {
-  left: 270px;
+  left: 100%;
 }
 .uk-offcanvas-flip.uk-offcanvas-container-animation {
-  left: -270px;
+  left: -100%;
 }
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
   :not(.uk-offcanvas-flip).uk-offcanvas-container-animation {
-    left: 350px;
+    left: 100%;
   }
   .uk-offcanvas-flip.uk-offcanvas-container-animation {
-    left: -350px;
+    left: -100%;
   }
 }
 /* ========================================================================
@@ -8418,22 +8418,22 @@ iframe.uk-cover {
 /* Large
  ========================================================================== */
 .uk-margin-large {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 * + .uk-margin-large {
-  margin-top: 40px !important;
+  margin-top: 70px !important;
 }
 .uk-margin-large-top {
-  margin-top: 40px !important;
+  margin-top: 70px !important;
 }
 .uk-margin-large-bottom {
-  margin-bottom: 40px !important;
+  margin-bottom: 70px !important;
 }
 .uk-margin-large-left {
-  margin-left: 40px !important;
+  margin-left: 70px !important;
 }
 .uk-margin-large-right {
-  margin-right: 40px !important;
+  margin-right: 70px !important;
 }
 /* Desktop and bigger */
 @media (min-width: 1200px) {
@@ -10298,8 +10298,8 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-button-primary,
 .uk-overlay-primary .uk-button-primary,
 .uk-offcanvas-bar .uk-button-primary {
-  background-color: #fff;
-  color: #093251;
+  background-color: #e63d26;
+  color: #fff;
 }
 .uk-light .uk-button-primary:hover,
 .uk-light .uk-button-primary:focus,
@@ -10323,8 +10323,8 @@ iframe.uk-cover {
 .uk-overlay-primary .uk-button-primary:focus,
 .uk-offcanvas-bar .uk-button-primary:hover,
 .uk-offcanvas-bar .uk-button-primary:focus {
-  background-color: #f2f2f2;
-  color: #093251;
+  background-color: #d93019;
+  color: #fff;
 }
 .uk-light .uk-button-primary:active,
 .uk-light .uk-button-primary.uk-active,
@@ -10348,8 +10348,8 @@ iframe.uk-cover {
 .uk-overlay-primary .uk-button-primary.uk-active,
 .uk-offcanvas-bar .uk-button-primary:active,
 .uk-offcanvas-bar .uk-button-primary.uk-active {
-  background-color: #e6e6e6;
-  color: #093251;
+  background-color: #c32b16;
+  color: #fff;
 }
 .uk-light .uk-button-secondary,
 .uk-section-primary:not(.uk-preserve-color) .uk-button-secondary,
@@ -10362,8 +10362,8 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-button-secondary,
 .uk-overlay-primary .uk-button-secondary,
 .uk-offcanvas-bar .uk-button-secondary {
-  background-color: #fff;
-  color: #093251;
+  background-color: #093251;
+  color: #fff;
 }
 .uk-light .uk-button-secondary:hover,
 .uk-light .uk-button-secondary:focus,
@@ -10387,8 +10387,8 @@ iframe.uk-cover {
 .uk-overlay-primary .uk-button-secondary:focus,
 .uk-offcanvas-bar .uk-button-secondary:hover,
 .uk-offcanvas-bar .uk-button-secondary:focus {
-  background-color: #f2f2f2;
-  color: #093251;
+  background-color: #06243a;
+  color: #fff;
 }
 .uk-light .uk-button-secondary:active,
 .uk-light .uk-button-secondary.uk-active,
@@ -10412,8 +10412,8 @@ iframe.uk-cover {
 .uk-overlay-primary .uk-button-secondary.uk-active,
 .uk-offcanvas-bar .uk-button-secondary:active,
 .uk-offcanvas-bar .uk-button-secondary.uk-active {
-  background-color: #e6e6e6;
-  color: #093251;
+  background-color: #041623;
+  color: #fff;
 }
 .uk-light .uk-button-text,
 .uk-section-primary:not(.uk-preserve-color) .uk-button-text,
@@ -12068,6 +12068,9 @@ iframe.uk-cover {
 .uk-logo__image {
   width: 61px;
 }
+.tm-logo-image {
+  width: 61px;
+}
 .tm-text-white {
   color: #fff;
 }
@@ -12219,7 +12222,7 @@ iframe.uk-cover {
 .tm-improvement__box {
   position: relative;
   padding: 100px 115px;
-  height: 540px;
+  min-height: 540px;
   margin-bottom: -125px;
   color: #093251;
   box-sizing: border-box;
@@ -12235,7 +12238,7 @@ iframe.uk-cover {
 }
 .tm-improvement__table th {
   padding-right: 25px;
-  vertical-align: middle;
+  vertical-align: top;
   font-size: 2rem;
   line-height: 1;
 }
@@ -12301,4 +12304,17 @@ iframe.uk-cover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.tm-offcanvas {
+  font-size: 1.33rem;
+  font-weight: bold;
+}
+.tm-offcanvas__nav {
+  text-transform: uppercase;
+}
+.tm-offcanvas__button {
+  line-height: 66px;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.33rem;
+  font-weight: 900;
 }
