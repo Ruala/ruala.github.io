@@ -1863,6 +1863,7 @@ select.uk-form-width-xsmall {
   font-family: 'PT Sans', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 1px;
   transition: 0.1s ease-in-out;
   transition-property: color, background-color, border-color;
 }
@@ -4024,7 +4025,6 @@ ul.uk-nav-sub {
  ========================================================================== */
 .uk-navbar-item {
   color: #fff;
-  letter-spacing: 1px;
 }
 /* Toggle
  ========================================================================== */
