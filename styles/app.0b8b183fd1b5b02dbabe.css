@@ -287,6 +287,7 @@ h5,
 .uk-h5 {
   font-size: 18px;
   line-height: 2;
+  font-weight: 400;
 }
 h6,
 .uk-h6 {
@@ -12097,6 +12098,7 @@ iframe.uk-cover {
   background: linear-gradient(180deg, #fefefe 0%, #f7f7f7 100%);
 }
 .tm-checkbox-image {
+  display: block;
   min-width: 27px;
 }
 .tm-header__button {
@@ -12242,11 +12244,11 @@ iframe.uk-cover {
 }
 .tm-improvement__table th,
 .tm-improvement__table td {
+  vertical-align: middle;
   padding: 10px 0;
 }
 .tm-improvement__table th {
   padding-right: 25px;
-  vertical-align: top;
   font-size: 2rem;
   line-height: 1;
 }
@@ -12254,11 +12256,15 @@ iframe.uk-cover {
   font-size: 1.1rem;
   font-weight: 500;
 }
+.tm-improvement__table_services {
+  width: 100%;
+}
 .tm-improvement__table_services th,
 .tm-improvement__table_services td {
   padding: 15px 10px;
 }
 .tm-improvement__table_services th {
+  width: 27px;
   padding-right: 25px;
 }
 .tm-improvement__table_services td {
