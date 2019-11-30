@@ -285,7 +285,7 @@ h4,
 }
 h5,
 .uk-h5 {
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 2;
   font-weight: 400;
 }
@@ -12064,15 +12064,35 @@ iframe.uk-cover {
     page-break-after: avoid;
   }
 }
+@media (min-width: 960px) and (max-width: 1199px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1600px) {
+  html {
+    font-size: 23px;
+  }
+  .uk-width-medium {
+    width: 474px;
+  }
+  .uk-width-large {
+    width: 525px;
+  }
+}
 .uk-navbar-center:not(:only-child) {
   top: 10px;
   transform: translate(-50%, 0);
 }
-.uk-logo__image {
-  width: 61px;
-}
+.uk-logo__image,
 .tm-logo-image {
   width: 61px;
+}
+@media (min-width: 1600px) {
+  .uk-logo__image,
+  .tm-logo-image {
+    width: 78px;
+  }
 }
 .tm-text-white {
   color: #fff;
@@ -12091,6 +12111,11 @@ iframe.uk-cover {
   height: 8px;
   background-color: #e63d26;
 }
+@media (min-width: 1600px) {
+  .tm-h_bordered::after {
+    width: 77px;
+  }
+}
 .tm-bg_muted {
   background: linear-gradient(0deg, #fefefe 0%, #f7f7f7 100%);
 }
@@ -12100,6 +12125,11 @@ iframe.uk-cover {
 .tm-checkbox-image {
   display: block;
   min-width: 27px;
+}
+@media (min-width: 1600px) {
+  .tm-checkbox-image {
+    min-width: 35px;
+  }
 }
 .tm-header__button {
   line-height: 34px;
@@ -12120,9 +12150,17 @@ iframe.uk-cover {
 .tm-header_dark .uk-navbar-nav > li.uk-active > a {
   color: #e63d26;
 }
+@media (min-width: 1600px) {
+  .uk-button {
+    line-height: 51px;
+  }
+  .tm-header__button {
+    line-height: 44px;
+  }
+}
 .tm-footer {
   padding: 30px 0;
-  font-size: 12px;
+  font-size: 0.67rem;
   color: #fff;
   background-color: #2d2a26;
 }
@@ -12138,7 +12176,7 @@ iframe.uk-cover {
   color: #fff;
 }
 .tm-slideshow__slide {
-  padding: 220px 0 100px;
+  padding: 140px 0 100px;
 }
 .tm-slideshow__dotnav > * > * {
   background: #fff;
@@ -12157,6 +12195,11 @@ iframe.uk-cover {
   background: transparent;
   border-color: #fff;
 }
+@media (min-width: 1200px) {
+  .tm-slideshow__slide {
+    padding-top: 220px;
+  }
+}
 .tm-technology {
   padding: 180px 0 0;
 }
@@ -12165,16 +12208,26 @@ iframe.uk-cover {
   margin-left: -20px;
   margin-bottom: -1px !important;
 }
+@media (min-width: 1600px) {
+  .tm-technology__logo {
+    width: 679px;
+  }
+}
 .tm-capabilities {
   padding: 250px 0 150px;
   color: #fff;
 }
 .tm-capabilities__items {
-  font-size: 15px;
+  font-size: 0.83rem;
 }
 .tm-capabilities__items p {
   width: 210px;
   max-width: 100%;
+}
+@media (min-width: 1600px) {
+  .tm-capabilities__items p {
+    width: 71.2%;
+  }
 }
 .tm-promotes {
   padding: 50px 0 120px;
@@ -12184,7 +12237,7 @@ iframe.uk-cover {
 }
 .tm-pageheader {
   overflow: hidden;
-  padding-top: 220px;
+  padding-top: 140px;
   padding-bottom: 0;
 }
 .tm-pageheader__logo {
@@ -12192,12 +12245,12 @@ iframe.uk-cover {
   bottom: 0;
 }
 .tm-pageheader__logo_technology {
-  right: -118px;
-  width: 530px;
+  right: -90px;
+  width: 400px;
 }
 .tm-pageheader__logo_services {
-  left: -79px;
-  width: 265px;
+  left: -60px;
+  width: 200px;
 }
 .tm-pageheader__list {
   font-size: 1.7rem;
@@ -12212,6 +12265,32 @@ iframe.uk-cover {
 }
 .tm-pageheader_services .uk-container {
   padding-bottom: 80px;
+}
+@media (min-width: 1200px) {
+  .tm-pageheader {
+    padding-top: 220px;
+  }
+  .tm-pageheader__logo_technology {
+    right: -118px;
+    width: 530px;
+  }
+  .tm-pageheader__logo_services {
+    left: -79px;
+    width: 265px;
+  }
+}
+@media (min-width: 1600px) {
+  .tm-pageheader__logo_technology {
+    right: -151px;
+    width: 679px;
+  }
+  .tm-pageheader__logo_services {
+    left: -101px;
+    width: 340px;
+  }
+  .tm-pageheader_services .uk-container {
+    padding-bottom: 110px;
+  }
 }
 .tm-maintain {
   padding: 70px 0 100px;
@@ -12231,7 +12310,7 @@ iframe.uk-cover {
 }
 .tm-improvement__box {
   position: relative;
-  padding: 100px 115px;
+  padding: 100px 40px;
   min-height: 540px;
   margin-bottom: -125px;
   color: #093251;
@@ -12276,6 +12355,16 @@ iframe.uk-cover {
 .tm-improvement_services {
   padding-top: 230px;
 }
+@media (min-width: 1200px) {
+  .tm-improvement__box {
+    padding: 100px 115px;
+  }
+}
+@media (min-width: 1600px) {
+  .tm-improvement__table_services th {
+    min-width: 35px;
+  }
+}
 .tm-building {
   padding: 225px 0 100px;
 }
@@ -12318,6 +12407,15 @@ iframe.uk-cover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (min-width: 1600px) {
+  .tm-cover-slider .uk-slidenav {
+    width: 109px;
+    height: 109px;
+  }
+  .tm-cover-slider .uk-slidenav-next {
+    left: 114px;
+  }
 }
 .tm-offcanvas {
   font-size: 1.33rem;
