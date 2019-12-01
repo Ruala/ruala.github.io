@@ -106,7 +106,7 @@ form p.error {
     }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 767px) {
 
     form ul {
         padding: 0 10%;
