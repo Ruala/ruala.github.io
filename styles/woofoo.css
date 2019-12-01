@@ -89,6 +89,6 @@ form p.error {
     padding: 5px 0 5px 0 !important;
 }
 
-.wufoo form ul {
+form ul {
     padding: 0 70px;
 }
