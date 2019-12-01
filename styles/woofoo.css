@@ -94,7 +94,7 @@ form p.error {
     }
 
     .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select, .wufoo li .wufoo-dropdown span {
-        font-size: 14px;
+        font-size: 14px!important;
     }
 }
 
