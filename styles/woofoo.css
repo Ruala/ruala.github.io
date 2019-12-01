@@ -19,7 +19,7 @@ form li.leftHalf, form li.rightHalf {
     width: 49% !important;
 }
 
-@media only screen and (max-width: 639px) {
+@media only screen and (max-width: 599px) {
 
     form li.leftHalf, form li.rightHalf {
         width: 100% !important;
@@ -87,4 +87,8 @@ form li.error, #errorMsg b {
 
 form p.error {
     padding: 5px 0 5px 0 !important;
+}
+
+.wufoo form ul {
+    padding: 0 70px;
 }
