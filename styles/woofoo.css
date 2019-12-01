@@ -19,13 +19,6 @@ form li.leftHalf, form li.rightHalf {
     width: 49% !important;
 }
 
-@media only screen and (max-width: 599px) {
-
-    form li.leftHalf, form li.rightHalf {
-        width: 100% !important;
-    }
-}
-
 .wufoo label.desc, .wufoo legend.desc, .likert caption {
     display: none;
 }
@@ -39,7 +32,7 @@ form li.leftHalf, form li.rightHalf {
 }
 
 .wufoo input:focus, .wufoo textarea:focus, .wufoo select:focus {
-   outline: none;
+    outline: none;
 }
 
 .wufoo input.text,.wufoo textarea.textarea,.wufoo input.file,.wufoo select.select,.wufoo li .wufoo-dropdown span {
@@ -63,7 +56,10 @@ form li.buttons {
 }
 
 .wufoo input.btTxt {
+    font-family: 'PT Sans', sans-serif;
     font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
     display: inline-block;
     box-sizing: border-box;
     padding: 0 30px;
@@ -89,6 +85,28 @@ form p.error {
     padding: 5px 0 5px 0 !important;
 }
 
-form ul {
-    padding: 0 70px;
+@media only screen and (max-width: 579px) {
+
+    form li.leftHalf, form li.rightHalf {
+        width: 100% !important;
+    }
+
+    .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select, .wufoo li .wufoo-dropdown span {
+        font-size: 14px;
+    }
+
+    .wufoo input.btTxt {
+        line-height: 66px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+}
+
+@media (min-width: 960px) {
+
+    form ul {
+        padding: 0 10%;
+    }
 }
