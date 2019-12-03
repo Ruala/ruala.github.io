@@ -10,6 +10,7 @@
     font-family:  'Roboto', sans-serif;
     font-weight: 700;
     color: #093251 !important;
+    text-transform: capitalize;
 }
 
 form li {
