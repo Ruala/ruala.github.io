@@ -18,6 +18,7 @@ html {
   /* 3 */
   background: #fff;
   color: #093251;
+  -webkit-overflow-scrolling:touch;
 }
 /*
  * Remove the margin in all browsers.
