@@ -2,444 +2,504 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MTN HAUS</title>
+<meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>MTN HAUS</title>
 
-    <!--add font from google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:400,500,700,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles/vendors.css">
+<link rel="stylesheet" href="assets/styles/app.css">
 
-<link href="styles/app.a5dc6386f7543818ae95.css" rel="stylesheet"><link href="styles/vendors.a5dc6386f7543818ae95.css" rel="stylesheet"></head>
+<!--add font from google fonts-->
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:400,500,700,900&display=swap" rel="stylesheet">
+
+</head>
 <body>
 
 <div class="uk-offcanvas-content">
     <div class="uk-height-viewport uk-flex uk-flex-column uk-flex-between">
         <div class="uk-position-relative">
+           <!--Header-->
+<header class="tm-header  uk-navbar-container uk-navbar-transparent uk-position-top uk-position-z-index">
+    <div class="uk-container uk-container-large">
+        <div class="uk-width-5-6@m uk-margin-auto">
+            <nav class="uk-navbar" uk-navbar>
+                <div class="uk-navbar-left">
 
-            <!--Header-->
-            <header class="tm-header uk-navbar-container uk-navbar-transparent uk-position-top uk-position-z-index">
-                <div class="uk-container uk-container-large">
-                    <div class="uk-width-5-6@m uk-margin-auto">
-                        <nav class="uk-navbar" uk-navbar>
-                            <div class="uk-navbar-left">
+                    <!--mobile menu toggle-->
+                    <a href="#offcanvas-overlay" class="tm-navbar-toggle uk-navbar-toggle uk-hidden@m" uk-toggle>
+                        <span></span>
+                    </a>
 
-                                <!--mobile menu toggle-->
-                                <a href="#offcanvas-overlay" class="tm-navbar-toggle uk-navbar-toggle uk-hidden@m" uk-toggle>
-                                    <span></span>
-                                </a>
+                    <!--navbar menu-->
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                        <li >
+                            <a href="/about.html">About</a>
+                        </li>
+                        
+                        <li >
+                            <a href="/services.html">Services</a>
+                        </li>
+                        
+                        <li >
+                            <a href="/technology.html">Technology</a>
+                        </li>
+                        
+                    </ul>
 
-                                <!--navbar menu-->
-                                <ul class="uk-navbar-nav uk-visible@m">
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="technology.html">Technology</a></li>
-                                </ul>
-
-                            </div>
-
-                            <div class="uk-navbar-center">
-                                <!--logo-->
-                                <a class="uk-navbar-item uk-logo" href="/">
-                                    <img class="uk-logo__image uk-visible@m" src="images/logo.png" width="61" alt="">
-                                    <img class="uk-logo__image uk-hidden@m" src="images/logo_blue.png" width="61" alt="">
-                                </a>
-
-                            </div>
-
-                            <div class="uk-navbar-right uk-visible@m">
-                                <div class="uk-navbar-item">
-                                    <a href="#tm-feedback" class="tm-header__button uk-button uk-button-primary" uk-scroll>Work with us</a>
-                                </div>
-
-                            </div>
-                        </nav>
-                    </div>
                 </div>
-            </header>
+
+                <div class="uk-navbar-center">
+                    <!--logo-->
+                    <a class="uk-navbar-item uk-logo" href="/">
+                        
+                        <img class="uk-logo__image uk-visible@m" src="assets/images/logo.png" width="61" alt="">
+                        <img class="uk-logo__image uk-hidden@m" src="assets/images/logo_blue.png" width="61" alt="">
+                        
+
+                    </a>
+
+                </div>
+
+                <div class="uk-navbar-right uk-visible@m">
+                    <div class="uk-navbar-item">
+                        <a href="#tm-feedback"
+                           class="tm-header__button uk-button uk-button-primary"
+                           uk-scroll>Work with us</a>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
 
             <!-- Slideshow Desktop -->
-            <div class="tm-slideshow uk-section uk-padding-remove uk-visible@m">
-                <div class="uk-position-relative" uk-slideshow="ratio: 2560:1600;">
-
-                    <ul class="uk-slideshow-items">
-                        <li class="tm-slideshow__slide">
-                            <img src="images/slide_1.jpg" alt="" uk-cover>
-
-                            <div class="uk-container uk-container-large uk-position-relative">
-                                <div class="uk-margin-medium-bottom" uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
-                                    <div class="uk-width-5-6@m uk-margin-auto">
-                                        <h2 class="uk-margin-remove">Engineered Solutions.</h2>
-                                        <h2 class="uk-text-primary uk-margin-remove">On-Time. On Budget.</h2>
-                                    </div>
-                                </div>
-
-                                <div uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
-                                    <div class="uk-width-2-3@m uk-margin-auto">
-                                        <p class="uk-width-medium">
-                                            MTN Haus is an end-to-end eCommerce solutions provider for Magento and
-                                            Shopify. We design, develop and deliver products based around the end user
-                                            experience. We provide solutions for both new or established DTC, B2B and
-                                            B2C companies.
-                                        </p>
-
-                                        <a href="" class="uk-button uk-button-primary">Get started</a>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </li>
-
-                        <li class="tm-slideshow__slide">
-                            <img src="images/slide_1.jpg" alt="" uk-cover>
-
-                            <div class="uk-container uk-container-large uk-position-relative">
-                                <div class="uk-margin-medium-bottom" uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
-                                    <div class="uk-width-5-6@m uk-margin-auto">
-                                        <h2 class="uk-margin-remove">Engineered Solutions.</h2>
-                                        <h2 class="uk-text-primary uk-margin-remove">On-Time. On Budget.</h2>
-                                    </div>
-                                </div>
-
-                                <div uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
-                                    <div class="uk-width-2-3@m uk-margin-auto">
-                                        <p class="uk-width-medium">
-                                            MTN Haus is an end-to-end eCommerce solutions provider for Magento and
-                                            Shopify. We design, develop and deliver products based around the end user
-                                            experience. We provide solutions for both new or established DTC, B2B and
-                                            B2C companies.
-                                        </p>
-
-                                        <a href="" class="uk-button uk-button-primary">Get started</a>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </li>
-
-                        <li class="tm-slideshow__slide">
-                            <img src="images/slide_1.jpg" alt="" uk-cover>
-
-                            <div class="uk-container uk-container-large uk-position-relative">
-                                <div class="uk-margin-medium-bottom" uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
-                                    <div class="uk-width-5-6@m uk-margin-auto">
-                                        <h2 class="uk-margin-remove">Engineered Solutions.</h2>
-                                        <h2 class="uk-text-primary uk-margin-remove">On-Time. On Budget.</h2>
-                                    </div>
-                                </div>
-
-                                <div uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
-                                    <div class="uk-width-2-3@m uk-margin-auto">
-                                        <p class="uk-width-medium">
-                                            MTN Haus is an end-to-end eCommerce solutions provider for Magento and
-                                            Shopify. We design, develop and deliver products based around the end user
-                                            experience. We provide solutions for both new or established DTC, B2B and
-                                            B2C companies.
-                                        </p>
-
-                                        <a href="" class="uk-button uk-button-primary">Get started</a>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </li>
-
-                    </ul>
-
-                    <ul class="tm-slideshow__dotnav uk-slideshow-nav uk-dotnav uk-position-bottom-center uk-flex-center uk-margin-medium"></ul>
-                </div>
-
-            </div>
-
-            <!-- Slideshow Mobile -->
-            <div class="tm-pageheader-slider uk-section uk-padding-remove uk-hidden@m">
-                <div class="uk-position-relative" uk-slider>
-                    <ul class="uk-slider-items uk-child-width-1-1">
-                        <li>
-                            <img class="uk-margin-medium-bottom" src="images/slide_1.jpg" alt="">
-
-                            <div class="uk-container">
-                                <h2 class="uk-margin-remove">Engineered Solutions.</h2>
-                                <h2 class="uk-text-primary uk-margin-remove-top">On-Time. On Budget.</h2>
-
-                                <p class="uk-width-medium">
-                                    MTN Haus is an end-to-end eCommerce solutions provider for Magento and
-                                    Shopify. We design, develop and deliver products based around the end user
-                                    experience. We provide solutions for both new or established DTC, B2B and
-                                    B2C companies.
-                                </p>
-
-                                <a href="" class="uk-button uk-button-primary uk-margin-medium-bottom">Get started</a>
-
-                            </div>
-
-                        </li>
-
-                        <li>
-                            <img class="uk-margin-medium-bottom" src="images/slide_1.jpg" alt="">
-
-                            <div class="uk-container">
-                                <h2 class="uk-margin-remove">Engineered Solutions.</h2>
-                                <h2 class="uk-text-primary uk-margin-remove-top">On-Time. On Budget.</h2>
-
-                                <p class="uk-width-medium">
-                                    MTN Haus is an end-to-end eCommerce solutions provider for Magento and
-                                    Shopify. We design, develop and deliver products based around the end user
-                                    experience. We provide solutions for both new or established DTC, B2B and
-                                    B2C companies.
-                                </p>
-
-                                <a href="" class="uk-button uk-button-primary uk-margin-medium-bottom">Get started</a>
-
-                            </div>
-
-                        </li>
-
-                        <li>
-                            <img class="uk-margin-medium-bottom" src="images/slide_1.jpg" alt="">
-
-                            <div class="uk-container">
-                                <h2 class="uk-margin-remove">Engineered Solutions.</h2>
-                                <h2 class="uk-text-primary uk-margin-remove-top">On-Time. On Budget.</h2>
-
-                                <p class="uk-width-medium">
-                                    MTN Haus is an end-to-end eCommerce solutions provider for Magento and
-                                    Shopify. We design, develop and deliver products based around the end user
-                                    experience. We provide solutions for both new or established DTC, B2B and
-                                    B2C companies.
-                                </p>
-
-                                <a href="" class="uk-button uk-button-primary uk-margin-medium-bottom">Get started</a>
-
-                            </div>
-
-                        </li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-            <!-- Technology partners -->
-            <div class="tm-technology tm-bg_muted-reverse uk-section">
-                <div class="uk-container uk-container-large">
-                    <div class="uk-width-5-6@m uk-margin-auto uk-margin-medium-bottom">
-                        <h2 class="uk-margin-remove">Technology Partners.</h2>
-                        <h2 class="uk-text-primary uk-margin-remove">Lorem Ipsum.</h2>
-                    </div>
-
-                    <div class="uk-child-width-1-2@m uk-grid" uk-grid>
-                        <div class="uk-flex-last@m">
-                            <div class="uk-width-medium">
-                                <div class="uk-child-width-1-2 uk-grid" uk-grid>
-                                    <div>
-                                        <img src="images/magento-logo.png" alt="">
-                                    </div>
-
-                                    <div>
-                                        <img src="images/shopify-logo.png" alt="">
-                                    </div>
-
-                                </div>
-
-                                <p>
-                                    We have partnered with best platforms in the industry. Whether you require a
-                                    flexible open source tech stack to solve complex business problems or a user
-                                    friendly SaaS solution, MTN Haus can deliver a solution to meet your needs.
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div>
-                            <img class="tm-technology__logo" src="images/logo_bg.png" alt="">
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Capabilities -->
-            <div class="tm-capabilities uk-section uk-background-secondary">
-                <div class="uk-container uk-container-large">
-                    <div class="uk-child-width-1-2@m uk-grid" uk-grid>
-                        <div>
-                            <div class="uk-grid uk-flex-center">
-                                <div class="uk-width-2-3@m">
-                                    <h2 class="tm-h_bordered">Capabilities</h2>
-
-                                    <p class="tm-capabilities__text">
-                                        MTN Haus is extremely capable at helping brands solve their eCommerce problems.
-                                        Our services range from initial strategy and design to development,
-                                        implementation and support. We provide end-to-end solutions to meet our
-                                        customers needs.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div>
-                            <div class="tm-capabilities__items uk-child-width-1-2@s uk-grid uk-text-muted" uk-grid>
-                                <div>
-                                    <h6 class="uk-text-primary uk-margin-remove">New website builds</h6>
-                                    <p class="uk-margin-remove">Leave the technical stuff to us and focus on what you do best.</p>
-                                </div>
-
-                                <div>
-                                    <h6 class="uk-text-primary uk-margin-remove">Custom feature development</h6>
-                                    <p class="uk-margin-remove">Custom Modules and Extensions for Magento and Shopfiy tailored to your specific business needs needs</p>
-                                </div>
-
-                                <div>
-                                    <h6 class="uk-text-primary uk-margin-remove">Performance optimization</h6>
-                                    <p class="uk-margin-remove">Every (mili) second counts. Already have a site and just want a better experience for your customers?</p>
-                                </div>
-
-                                <div>
-                                    <h6 class="uk-text-primary uk-margin-remove">UX/UI design</h6>
-                                    <p class="uk-margin-remove">You only get one shot. Don't let weak design turn off your best customers.</p>
-                                </div>
-
-                                <div>
-                                    <h6 class="uk-text-primary uk-margin-remove">Strategy & consulting</h6>
-                                    <p class="uk-margin-remove">Need a fresh set of eyes on your website, architecture, systems</p>
-                                </div>
-
-                                <div>
-                                    <h6 class="uk-text-primary uk-margin-remove">Mobile application development</h6>
-                                    <p class="uk-margin-remove">iOS and Android apps - we have you covered. </p>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Section Promotes -->
-            <div class="tm-promotes uk-section">
-                <div class="uk-container uk-container-large">
-                    <div class="tm-promotes__logos uk-width-5-6@m uk-margin-auto">
-                        <div class="uk-child-width-1-2 uk-child-width-1-4@s uk-child-width-auto@l uk-grid uk-flex-middle uk-flex-between" uk-grid>
-                            <div><a href=""><img src="images/wp-logo.png" width="180" alt=""></a></div>
-
-                            <div><a href=""><img src="images/google-analytics-logo.png" width="195" alt=""></a></div>
-
-                            <div><a href=""><img src="images/new-relic-logo.png" width="164" alt=""></a></div>
-
-                            <div><a href=""><img src="images/bazaarvoice-logo.png" width="182.5" alt=""></a></div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="uk-width-2-3@m uk-margin-auto uk-margin-medium-bottom">
-                        <h3 class="uk-margin-remove">Ecommerce integrations for your business.</h3>
-                        <h3 class="tm-h_bordered uk-text-primary uk-margin-remove">Simple solutions to complex problems.</h3>
-
-                        <p class="uk-text-lead uk-margin-remove-bottom">MTN Haus has partnered with the best integration
-                            providers in the industry. We can provide full integration and support to solve a wide range
-                            of eCommerce needs from new features and alternative payment processes to performance
-                            optimization and analytics.
-                        </p>
-
-                    </div>
-
-
-                </div>
-            </div>
-
-            <!-- Section Work with us -->
-            <div id="tm-feedback" class="uk-section">
-                <div class="uk-container uk-container-large">
-                    <div class="uk-width-5-6@m uk-margin-auto">
-
-                        <div id="wufoo-zc70bvd0043mjr"> Fill out my <a href="https://mtnhaus.wufoo.com/forms/zc70bvd0043mjr">online form</a>. </div> <script type="text/javascript"> var zc70bvd0043mjr; (function(d, t) { var s = d.createElement(t), options = { 'userName':'mtnhaus', 'formHash':'zc70bvd0043mjr', 'autoResize':true, 'height':'668', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { zc70bvd0043mjr = new WufooForm(); zc70bvd0043mjr.initialize(options); zc70bvd0043mjr.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!--Footer-->
-        <footer class="tm-footer uk-section">
-            <div class="uk-container uk-container-large">
-                <div class="uk-width-5-6@m uk-margin-auto">
-                    <div class="uk-child-width-auto uk-grid uk-flex-between uk-flex-middle" uk-grid>
-                        <div>
-                            <ul class="tm-footer__nav uk-subnav uk-margin-bottom" uk-margin>
-                                <li><a href="#">Terms of Service</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li>
-                                    <a href="#">
-                                        <img src="images/twitter-icon.png" width="20" alt="">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="images/linkedIn-icon.png" width="18" alt="">
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <div>© 2019 MTN Haus, LLC. All Rights Reserved.</div>
-                        </div>
-
-                        <div>
-                            <img src="images/logo_footer.png" width="53" alt="">
+<div class="tm-slideshow uk-section uk-padding-remove uk-visible@m">
+    <div class="uk-position-relative" uk-slideshow="ratio: 2560:1600;">
+
+        <ul class="uk-slideshow-items">
+            
+            <li class="tm-slideshow__slide">
+                <img src="assets/images/slide_1.jpg" alt="" uk-cover="" />
+
+                <div class="uk-container uk-container-large uk-position-relative">
+                    <div class="uk-margin-medium-bottom" uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
+                        <div class="uk-width-5-6@m uk-margin-auto">
+                            <h2 class="uk-margin-remove">Engineered Solutions</h2>
+                            <h2 class="uk-text-primary uk-margin-remove">On-Time. On Budget.</h2>
                         </div>
                     </div>
 
-                </div>
+                    <div uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
+                        <div class="uk-width-2-3@m uk-margin-auto">
+                            <p class="uk-width-medium">MTN Haus is an end-to-end eCommerce solutions provider for Magento and
+Shopify. We design, develop and deliver products based around the end user
+experience. We provide solutions for both new or established DTC, B2B and
+B2C companies.
+</p>
 
-            </div>
-        </footer>
-    </div>
-
-    <!-- Off-canvas -->
-    <div id="offcanvas-overlay" class="tm-offcanvas uk-width-1-1" uk-offcanvas>
-        <div class="uk-offcanvas-bar">
-            <button class="uk-offcanvas-close uk-button uk-button-link" type="button">
-                <img src="images/close.png" width="36" alt="">
-            </button>
-
-            <div class="uk-card uk-flex uk-flex-center uk-text-center">
-                <div>
-                    <div class="uk-margin-large-bottom">
-                        <a class="uk-display-inline-block" href="/">
-                            <img class="tm-logo-image" src="images/logo.png" width="61" alt="">
-                        </a>
+                            <a href="link_href" class="uk-button uk-button-primary">Get started</a>
+                        </div>
                     </div>
 
-                    <ul class="tm-offcanvas__nav uk-nav uk-margin-large-bottom" uk-margin="margin: uk-margin-large-top">
-                        <li><a href="#">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="technology.html">Technology</a></li>
-                    </ul>
 
-                    <div>
-                        <a href="#tm-feedback" class="tm-offcanvas__button uk-button uk-button-primary" uk-scroll>Work with us</a>
-                    </div>
                 </div>
-            </div>
-        </div>
+
+            </li>
+            
+            <li class="tm-slideshow__slide">
+                <img src="assets/images/slide_1.jpg" alt="" uk-cover="" />
+
+                <div class="uk-container uk-container-large uk-position-relative">
+                    <div class="uk-margin-medium-bottom" uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
+                        <div class="uk-width-5-6@m uk-margin-auto">
+                            <h2 class="uk-margin-remove">Engineered Solutions</h2>
+                            <h2 class="uk-text-primary uk-margin-remove">On-Time. On Budget.</h2>
+                        </div>
+                    </div>
+
+                    <div uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
+                        <div class="uk-width-2-3@m uk-margin-auto">
+                            <p class="uk-width-medium">MTN Haus is an end-to-end eCommerce solutions provider for Magento and
+Shopify. We design, develop and deliver products based around the end user
+experience. We provide solutions for both new or established DTC, B2B and
+B2C companies.
+</p>
+
+                            <a href="link_href" class="uk-button uk-button-primary">Get started</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </li>
+            
+            <li class="tm-slideshow__slide">
+                <img src="assets/images/slide_1.jpg" alt="" uk-cover="" />
+
+                <div class="uk-container uk-container-large uk-position-relative">
+                    <div class="uk-margin-medium-bottom" uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">
+                        <div class="uk-width-5-6@m uk-margin-auto">
+                            <h2 class="uk-margin-remove">Engineered Solutions</h2>
+                            <h2 class="uk-text-primary uk-margin-remove">On-Time. On Budget.</h2>
+                        </div>
+                    </div>
+
+                    <div uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">
+                        <div class="uk-width-2-3@m uk-margin-auto">
+                            <p class="uk-width-medium">MTN Haus is an end-to-end eCommerce solutions provider for Magento and
+Shopify. We design, develop and deliver products based around the end user
+experience. We provide solutions for both new or established DTC, B2B and
+B2C companies.
+</p>
+
+                            <a href="link_href" class="uk-button uk-button-primary">Get started</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </li>
+            
+
+        </ul>
+
+        <ul class="tm-slideshow__dotnav uk-slideshow-nav uk-dotnav uk-position-bottom-center uk-flex-center uk-margin-medium"></ul>
     </div>
 
 </div>
 
-<script type="text/javascript" src="scripts/app.a5dc6386f7543818ae95.js"></script><script type="text/javascript" src="scripts/vendors.a5dc6386f7543818ae95.js"></script></body>
+<!-- Slideshow Mobile -->
+<div class="tm-pageheader-slider uk-section uk-padding-remove uk-hidden@m">
+    <div class="uk-position-relative" uk-slider="">
+        <ul class="uk-slider-items uk-child-width-1-1">
+            
+            <li>
+                <img class="uk-margin-medium-bottom" src="assets/images/slide_1.jpg" alt="" />
+
+                <div class="uk-container">
+                    <h2 class="uk-margin-remove">Engineered Solutions</h2>
+                    <h2 class="uk-text-primary uk-margin-remove-top">On-Time. On Budget.</h2>
+
+                    <p class="uk-width-medium">MTN Haus is an end-to-end eCommerce solutions provider for Magento and
+Shopify. We design, develop and deliver products based around the end user
+experience. We provide solutions for both new or established DTC, B2B and
+B2C companies.
+</p>
+
+                    <a href="link_href" class="uk-button uk-button-primary uk-margin-medium-bottom">Get started</a>
+
+                </div>
+
+            </li>
+            
+            <li>
+                <img class="uk-margin-medium-bottom" src="assets/images/slide_1.jpg" alt="" />
+
+                <div class="uk-container">
+                    <h2 class="uk-margin-remove">Engineered Solutions</h2>
+                    <h2 class="uk-text-primary uk-margin-remove-top">On-Time. On Budget.</h2>
+
+                    <p class="uk-width-medium">MTN Haus is an end-to-end eCommerce solutions provider for Magento and
+Shopify. We design, develop and deliver products based around the end user
+experience. We provide solutions for both new or established DTC, B2B and
+B2C companies.
+</p>
+
+                    <a href="link_href" class="uk-button uk-button-primary uk-margin-medium-bottom">Get started</a>
+
+                </div>
+
+            </li>
+            
+            <li>
+                <img class="uk-margin-medium-bottom" src="assets/images/slide_1.jpg" alt="" />
+
+                <div class="uk-container">
+                    <h2 class="uk-margin-remove">Engineered Solutions</h2>
+                    <h2 class="uk-text-primary uk-margin-remove-top">On-Time. On Budget.</h2>
+
+                    <p class="uk-width-medium">MTN Haus is an end-to-end eCommerce solutions provider for Magento and
+Shopify. We design, develop and deliver products based around the end user
+experience. We provide solutions for both new or established DTC, B2B and
+B2C companies.
+</p>
+
+                    <a href="link_href" class="uk-button uk-button-primary uk-margin-medium-bottom">Get started</a>
+
+                </div>
+
+            </li>
+            
+
+        </ul>
+
+    </div>
+
+</div>
+
+<!-- Technology partners -->
+
+<div class="tm-technology tm-bg_muted-reverse uk-section">
+    <div class="uk-container uk-container-large">
+        <div class="uk-width-5-6@m uk-margin-auto uk-margin-medium-bottom">
+            <h2 class="uk-margin-remove">Technology Partners.</h2>
+            <h2 class="uk-text-primary uk-margin-remove">Lorem Ipsum.</h2>
+        </div>
+
+        <div class="uk-child-width-1-2@m uk-grid" uk-grid="">
+            <div class="uk-flex-last@m">
+                <div class="uk-width-medium">
+                    <div class="uk-child-width-1-2 uk-grid" uk-grid="">
+                        <div>
+                            <img src="assets/images/magento-logo.png" alt="" />
+                        </div>
+
+                        <div>
+                            <img src="assets/images/shopify-logo.png" alt="" />
+                        </div>
+
+                    </div>
+
+                    <p>We have partnered with best platforms in the industry. Whether you require a
+flexible open source tech stack to solve complex business problems or a user
+friendly SaaS solution, MTN Haus can deliver a solution to meet your needs.
+</p>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="tm-technology__logo" src="assets/images/logo_bg.png" alt="" />
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Capabilities -->
+
+<div class="tm-capabilities uk-section uk-background-secondary">
+    <div class="uk-container uk-container-large">
+        <div class="uk-child-width-1-2@m uk-grid" uk-grid="">
+            <div>
+                <div class="uk-grid uk-flex-center">
+                    <div class="uk-width-2-3@m">
+                        <h2 class="tm-h_bordered">Capabilities</h2>
+
+                        <p class="tm-capabilities__text">MTN Haus is extremely capable at helping brands solve their eCommerce problems.
+Our services range from initial strategy and design to development,
+implementation and support. We provide end-to-end solutions to meet our
+customers needs.
+</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="tm-capabilities__items uk-child-width-1-2@s uk-grid uk-text-muted" uk-grid="">
+                    
+                    <div>
+                        <h6 class="uk-text-primary uk-margin-remove">New website builds</h6>
+                        <p class="uk-margin-remove">Leave the technical stuff to us and focus on what you do best.
+</p>
+                    </div>
+                    
+                    <div>
+                        <h6 class="uk-text-primary uk-margin-remove">Custom feature development</h6>
+                        <p class="uk-margin-remove">Custom Modules and Extensions for Magento and Shopfiy tailored to your specific business needs needs
+</p>
+                    </div>
+                    
+                    <div>
+                        <h6 class="uk-text-primary uk-margin-remove">Performance optimization</h6>
+                        <p class="uk-margin-remove">Every (mili) second counts. Already have a site and just want a better experience for your customers?
+</p>
+                    </div>
+                    
+                    <div>
+                        <h6 class="uk-text-primary uk-margin-remove">UX/UI design</h6>
+                        <p class="uk-margin-remove">You only get one shot. Don't let weak design turn off your best customers.
+</p>
+                    </div>
+                    
+                    <div>
+                        <h6 class="uk-text-primary uk-margin-remove">Strategy &amp; consulting</h6>
+                        <p class="uk-margin-remove">Need a fresh set of eyes on your website, architecture, systems
+</p>
+                    </div>
+                    
+                    <div>
+                        <h6 class="uk-text-primary uk-margin-remove">Mobile application development</h6>
+                        <p class="uk-margin-remove">iOS and Android apps - we have you covered.
+</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Section Promotes -->
+
+<div class="tm-promotes uk-section">
+    <div class="uk-container uk-container-large">
+        <div class="tm-promotes__logos uk-width-5-6@m uk-margin-auto">
+            <div class="uk-child-width-1-2 uk-child-width-1-4@s uk-child-width-auto@l uk-grid uk-flex-middle uk-flex-between" uk-grid="">
+                
+                <div><a href="href_link"><img src="assets/images/wp-logo.png" width="180" alt="" /></a></div>
+                
+                <div><a href="href_link"><img src="assets/images/google-analytics-logo.png" width="195" alt="" /></a></div>
+                
+                <div><a href="href_link"><img src="assets/images/new-relic-logo.png" width="164" alt="" /></a></div>
+                
+                <div><a href="href_link"><img src="assets/images/bazaarvoice-logo.png" width="182.5" alt="" /></a></div>
+                
+            </div>
+
+        </div>
+
+        <div class="uk-width-2-3@m uk-margin-auto uk-margin-medium-bottom">
+            <h3 class="uk-margin-remove">Ecommerce integrations for your business.</h3>
+            <h3 class="tm-h_bordered uk-text-primary uk-margin-remove">Simple solutions to complex problems.</h3>
+
+            <p class="uk-text-lead uk-margin-remove-bottom">MTN Haus has partnered with the best integration
+providers in the industry. We can provide full integration and support to solve a wide range
+of eCommerce needs from new features and alternative payment processes to performance
+optimization and analytics.
+</p>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Section Work with us -->
+<div id="tm-feedback" class="uk-section">
+    <div class="uk-container uk-container-large">
+        <div class="uk-width-5-6@m uk-margin-auto">
+
+            <div id="wufoo-zc70bvd0043mjr"> Fill out my <a href="https://mtnhaus.wufoo.com/forms/zc70bvd0043mjr">online form</a>. </div> <script type="text/javascript"> var zc70bvd0043mjr; (function(d, t) { var s = d.createElement(t), options = { 'userName':'mtnhaus', 'formHash':'zc70bvd0043mjr', 'autoResize':true, 'height':'668', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { zc70bvd0043mjr = new WufooForm(); zc70bvd0043mjr.initialize(options); zc70bvd0043mjr.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+        </div>
+
+        <!--Footer-->
+<footer class="tm-footer uk-section">
+    <div class="uk-container uk-container-large">
+        <div class="uk-width-5-6@m uk-margin-auto">
+            <div class="uk-child-width-auto uk-grid uk-flex-between uk-flex-middle" uk-grid>
+                <div>
+                    <ul class="tm-footer__nav uk-subnav uk-margin-bottom" uk-margin>
+                        
+                        <li>
+                            <a href="link_to_terms" >
+                                
+                                Terms of Service
+                                
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="link_to_private_policy" >
+                                
+                                Privacy Policy
+                                
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="link_to_twitter" target="_blank">
+                                
+                                <img src="assets/images/twitter-icon.png" width="20" alt="">
+                                
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="link_to_linkedIn" target="_blank">
+                                
+                                <img src="assets/images/linkedIn-icon.png" width="18" alt="">
+                                
+                            </a>
+                        </li>
+                        
+                    </ul>
+
+                    <div>© 2019 MTN Haus, LLC. All Rights Reserved.</div>
+                </div>
+
+                <div>
+                    <a href="/" class="tm-footer__logo">
+                        <img src="assets/images/logo_footer.png" width="53" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+    </div>
+
+    <!-- Off-canvas -->
+<div id="offcanvas-overlay" class="tm-offcanvas uk-width-1-1" uk-offcanvas>
+    <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close uk-button uk-button-link" type="button">
+            <img src="assets/images/close.png" width="36" alt="">
+        </button>
+
+        <div class="uk-card uk-flex uk-flex-center uk-text-center">
+            <div>
+                <div class="uk-margin-large-bottom">
+                    <a class="uk-display-inline-block" href="/">
+                        <img class="tm-logo-image" src="assets/images/logo.png" width="61" alt="">
+                    </a>
+                </div>
+
+                <ul class="tm-offcanvas__nav uk-nav uk-margin-large-bottom" uk-margin="margin: uk-margin-large-top">
+                    
+                    <li >
+                        <a href="/about.html">About</a>
+                    </li>
+                    
+                    <li >
+                        <a href="/services.html">Services</a>
+                    </li>
+                    
+                    <li >
+                        <a href="/technology.html">Technology</a>
+                    </li>
+                    
+                </ul>
+
+                <div>
+                    <a href="#tm-feedback" class="tm-offcanvas__button uk-button uk-button-primary" uk-scroll>Work with us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script src="assets/scripts/vendors.js"></script>
+<script src="assets/scripts/app.js"></script>
+</body>
 </html>
