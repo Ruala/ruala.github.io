@@ -2,13 +2,13 @@
 
 .wufoo .info {
     padding: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .wufoo .info h2 {
-    font-size: 66px !important;
+    font-size: 35px !important;
     font-family:  'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     color: #093251 !important;
     text-transform: capitalize;
 }
@@ -59,15 +59,16 @@ form li.buttons {
 }
 
 .wufoo input.btTxt {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'PT Sans', sans-serif;*/
+    font-size: 16px;
+    font-weight: 900;
     letter-spacing: 1px;
     display: inline-block;
     box-sizing: border-box;
     padding: 0 30px;
     vertical-align: middle;
-    line-height: 40px;
+    line-height: 46px;
     color: #fff;
     background: #093251;
     border: 1px solid transparent;
@@ -76,7 +77,7 @@ form li.buttons {
 }
 
 .wufoo input.btTxt:hover {
-    background: #06243a;
+    background: #e63d26;
     color: #fff;
 }
 
@@ -101,13 +102,13 @@ form p.error {
 
 @media only screen and (max-width: 899px) {
 
-    .wufoo input.btTxt {
-        line-height: 66px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 24px;
-        font-weight: 900;
-        letter-spacing: 2px;
-    }
+    /*.wufoo input.btTxt {*/
+    /*    line-height: 66px;*/
+    /*    font-family: 'Roboto', sans-serif;*/
+    /*    font-size: 24px;*/
+    /*    font-weight: 900;*/
+    /*    letter-spacing: 2px;*/
+    /*}*/
 }
 
 @media (min-width: 766px) {
