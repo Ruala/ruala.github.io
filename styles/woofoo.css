@@ -93,7 +93,7 @@ form p.error {
 @media (min-width: 640px) {
 
     .wufoo .info h2 {
-        font-size: 55px;
+        font-size: 55px !important;
         line-height: 60px;
     }
 }
@@ -101,7 +101,7 @@ form p.error {
 @media (min-width: 960px) {
 
     .wufoo .info h2 {
-        font-size: 65px;
+        font-size: 65px !important;
         line-height: 70px;
     }
 }
@@ -109,7 +109,7 @@ form p.error {
 @media (min-width: 1200px) {
 
     .wufoo .info h2 {
-        font-size: 70px;
+        font-size: 70px !important;
         line-height: 80px;
     }
 }
@@ -117,7 +117,7 @@ form p.error {
 @media (min-width: 1600px) {
 
     .wufoo .info h2 {
-        font-size: 85px;
+        font-size: 85px !important;
         line-height: 100px;
     }
 }
