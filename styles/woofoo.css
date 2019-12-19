@@ -31,6 +31,7 @@ form li.leftHalf, form li.rightHalf {
 }
 
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
+    font-family: 'Roboto', sans-serif;
     background: #eee;
 }
 
@@ -89,31 +90,42 @@ form p.error {
     padding: 5px 0 5px 0 !important;
 }
 
-@media only screen and (max-width: 579px) {
+@media (min-width: 640px) {
+
+    .wufoo .info h2 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+}
+
+@media (min-width: 960px) {
+
+    .wufoo .info h2 {
+        font-size: 65px;
+        line-height: 70px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .wufoo .info h2 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+}
+
+@media (min-width: 1600px) {
+
+    .wufoo .info h2 {
+        font-size: 85px;
+        line-height: 100px;
+    }
+}
+
+@media only screen and (max-width: 639px) {
 
     form li.leftHalf, form li.rightHalf {
         width: 100% !important;
     }
-
-    .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select, .wufoo li .wufoo-dropdown span {
-        font-size: 14px!important;
-    }
 }
 
-@media only screen and (max-width: 899px) {
-
-    /*.wufoo input.btTxt {*/
-    /*    line-height: 66px;*/
-    /*    font-family: 'Roboto', sans-serif;*/
-    /*    font-size: 24px;*/
-    /*    font-weight: 900;*/
-    /*    letter-spacing: 2px;*/
-    /*}*/
-}
-
-@media (min-width: 766px) {
-
-    form ul {
-        padding: 0 10%;
-    }
-}

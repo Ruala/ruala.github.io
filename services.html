@@ -21,57 +21,64 @@
         <div class="uk-position-relative">
            <!--Header-->
 <header class="tm-header  uk-navbar-container uk-navbar-transparent uk-position-top uk-position-z-index">
-    <div class="uk-container uk-container-large">
-        <div class="uk-width-5-6@m uk-margin-auto">
-            <nav class="uk-navbar" uk-navbar>
-                <div class="uk-navbar-left">
+    <div class="uk-container">
+        <nav class="uk-navbar" uk-navbar>
+            <div class="uk-navbar-left">
 
-                    <!--mobile menu toggle-->
-                    <a href="#offcanvas-overlay" class="tm-navbar-toggle uk-navbar-toggle uk-hidden@m" uk-toggle>
-                        <span></span>
-                    </a>
+                <!--mobile menu toggle-->
+                <a href="#offcanvas-overlay" class="tm-navbar-toggle uk-navbar-toggle uk-hidden@s" uk-toggle>
+                    <span></span>
+                </a>
 
-                    <!--navbar menu-->
-                    <ul class="uk-navbar-nav uk-visible@m">
-                        
-                        <li >
-                            <a href="/about.html">About</a>
-                        </li>
-                        
-                        <li class="uk-active">
-                            <a href="/services.html">Services</a>
-                        </li>
-                        
-                        <li >
-                            <a href="/technology.html">Technology</a>
-                        </li>
-                        
-                    </ul>
+                <!--logo-->
+                <a class="uk-navbar-item uk-logo uk-logo_left uk-hidden@m" href="/">
+                    
+                    <img class="uk-logo__image uk-visible@m" src="assets/images/logo.png" width="61" alt="">
+                    <img class="uk-logo__image uk-hidden@m" src="assets/images/logo_blue.png" width="61" alt="">
+                    
 
+                </a>
+
+                <!--navbar menu-->
+                <ul class="uk-navbar-nav uk-visible@s">
+                    
+                    <li >
+                        <a href="/about.html">About</a>
+                    </li>
+                    
+                    <li class="uk-active">
+                        <a href="/services.html">Services</a>
+                    </li>
+                    
+                    <li >
+                        <a href="/technology.html">Technology</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+
+            <div class="uk-navbar-center">
+                <!--logo-->
+                <a class="uk-navbar-item uk-logo" href="/">
+                    
+                    <img class="uk-logo__image uk-visible@m" src="assets/images/logo.png" width="61" alt="">
+                    <img class="uk-logo__image uk-hidden@m" src="assets/images/logo_blue.png" width="61" alt="">
+                    
+
+                </a>
+
+            </div>
+
+            <div class="uk-navbar-right uk-visible@s">
+                <div class="uk-navbar-item">
+                    <a href="#tm-feedback"
+                       class="tm-header__button uk-button uk-button-primary"
+                       uk-scroll>Work with us</a>
                 </div>
 
-                <div class="uk-navbar-center">
-                    <!--logo-->
-                    <a class="uk-navbar-item uk-logo" href="/">
-                        
-                        <img class="uk-logo__image uk-visible@m" src="assets/images/logo.png" width="61" alt="">
-                        <img class="uk-logo__image uk-hidden@m" src="assets/images/logo_blue.png" width="61" alt="">
-                        
-
-                    </a>
-
-                </div>
-
-                <div class="uk-navbar-right uk-visible@m">
-                    <div class="uk-navbar-item">
-                        <a href="#tm-feedback"
-                           class="tm-header__button uk-button uk-button-primary"
-                           uk-scroll>Work with us</a>
-                    </div>
-
-                </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </div>
 </header>
 
@@ -92,13 +99,21 @@
                 <div class="uk-width-1-2@s uk-width-1-4@m uk-width-1-5@l">
                     <ul class="tm-pageheader__list uk-list">
                         
-                        <li>eCommerce</li>
+                        <li>
+                            <a href="#ecommerce" uk-scroll="">Ecommerce</a>
+                        </li>
                         
-                        <li>Development</li>
+                        <li>
+                            <a href="#development" uk-scroll="">Development</a>
+                        </li>
                         
-                        <li>Design</li>
+                        <li>
+                            <a href="#design" uk-scroll="">Design</a>
+                        </li>
                         
-                        <li>Strategy + Consulting</li>
+                        <li>
+                            <a href="#strategy" uk-scroll="">Strategy + Consulting</a>
+                        </li>
                         
                     </ul>
                 </div>
@@ -111,19 +126,18 @@
 
 <!-- Section eCommerce Top -->
 
-<div class="tm-improvement tm-improvement_services uk-section" style="background-image: url('assets/images/improvement-services_bg-1.jpg')">
+<div id="ecommerce" class="tm-improvement tm-improvement_services uk-section" style="background-image: url('assets/images/improvement-services_bg-1.jpg')">
     <div class="uk-container uk-container-large">
         <div class="uk-width-5-6@m uk-margin-auto">
-            <h2 class="uk-margin-remove">Lorem ipsum dolor sit amet</h2>
-            <h2 class="uk-text-primary">Sed do quis isum suspendisse.</h2>
+            <h2 class="uk-margin-remove">Ecommerce solutions that</h2>
+            <h2 class="uk-text-primary">enhance your business.</h2>
 
             <div class="tm-improvement__box uk-background-muted">
                 <div class="uk-grid uk-grid-large uk-flex-middle" uk-grid="">
                     <div class="uk-width-auto@m">
-                        <p class="uk-width-medium">MTN Haus has partnered with the best integration providers in the industry. We
-can provide full integration and support to solve a wide range of eCommerce
-needs from new features and alternative payment processes to performance
-optimization and analytics.
+                        <p class="uk-width-medium">We work across a broad range of industries and platforms including Magento, Shopify, 
+WooCommerce and BigCommerce. We provide technology solutions that drive next level results
+for DTC, B2C and B2B companies.
 </p>
                     </div>
 
@@ -145,7 +159,7 @@ optimization and analytics.
                                     <img class="tm-checkbox-image" src="assets/images/checkbox.png" width="27" alt="" />
                                 </th>
                                 <td>
-                                    <h5 class="uk-margin-remove">Product Dev</h5>
+                                    <h5 class="uk-margin-remove">Product Development</h5>
                                 </td>
                             </tr>
                             
@@ -163,7 +177,7 @@ optimization and analytics.
                                     <img class="tm-checkbox-image" src="assets/images/checkbox.png" width="27" alt="" />
                                 </th>
                                 <td>
-                                    <h5 class="uk-margin-remove">UX/UI Design</h5>
+                                    <h5 class="uk-margin-remove">UX | UI Design</h5>
                                 </td>
                             </tr>
                             
@@ -172,7 +186,7 @@ optimization and analytics.
                                     <img class="tm-checkbox-image" src="assets/images/checkbox.png" width="27" alt="" />
                                 </th>
                                 <td>
-                                    <h5 class="uk-margin-remove">App Development</h5>
+                                    <h5 class="uk-margin-remove">Micro-services and PWAs</h5>
                                 </td>
                             </tr>
                             
@@ -196,11 +210,9 @@ optimization and analytics.
         <div class="uk-width-5-6@m uk-margin-auto">
             <div class="uk-child-width-1-2@m uk-grid uk-flex-bottom" uk-grid="">
                 <div>
-                    <h2 class="tm-h_bordered">eCommerce</h2>
+                    <h2 class="tm-h_bordered">Ecommerce</h2>
 
-                    <p class="uk-width-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    <p class="uk-width-medium">We don't just understand ecommerce, we also understand the business behind it.  
 </p>
                 </div>
 
@@ -208,20 +220,15 @@ gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                     <ul class="tm-building__list uk-list">
                         
                         <li>
-                            <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
-                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-facilisis.
+                            <h4 class="uk-text-primary uk-margin-small-bottom">A dedicated team of experts</h4>
+                            <p class="uk-margin-remove">Delivering technology driven results is what our team does best. Our experience is
+broad and ranges from the latest micro-services and PWAs to upgrades and replatforms.
 </p>
                         </li>
                         
                         <li>
-                            <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
-                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-facilisis.
+                            <h4 class="uk-text-primary uk-margin-small-bottom">End-to-end commerce solutions</h4>
+                            <p class="uk-margin-remove">Our full service solutions start at your infrastructure and expand to your website, CRM, ERP or WMS. We can work alongside your inter
 </p>
                         </li>
                         
@@ -242,8 +249,8 @@ facilisis.
             <div class="uk-child-width-1-2@m uk-grid" uk-grid="">
                 <div class="uk-flex uk-flex-wrap uk-flex-last@m">
                     <div class="uk-width-1-1 uk-hidden@m">
-                        <h2 class="uk-margin-remove">Lorem Ipsum.</h2>
-                        <h2 class="uk-text-primary">Second Line.</h2>
+                        <h2 class="uk-margin-remove">Performance.</h2>
+                        <h2 class="uk-text-primary">Delivered now.</h2>
                     </div>
 
                     <div class="tm-cover-slider uk-width-1-1 uk-flex uk-position-relative" tabindex="-1" uk-slider="">
@@ -276,14 +283,12 @@ facilisis.
                             <img class="tm-logo-image" src="assets/images/logo_blue.png" width="61" alt="" />
                         </div>
 
-                        <h2 class="uk-margin-remove uk-visible@m">Lorem Ipsum.</h2>
-                        <h2 class="uk-text-primary uk-visible@m">Second Line.</h2>
+                        <h2 class="uk-margin-remove uk-visible@m">Performance.</h2>
+                        <h2 class="uk-text-primary uk-visible@m">Delivered now.</h2>
 
                         <div class="uk-width-4-5@m uk-flex uk-flex-right@m uk-margin-auto">
                             <div>
-                                <p class="uk-width-medium">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.”
+                                <p class="uk-width-medium">It wasn't long ago that emerging technologies such as micro-services and PWAs were out of scope for small to mid-size businesses. But now these technologies are not only exclusive to enterprise customers and are being utilized with great success for all types of business.    
 </p>
 
                                 <a href="link_href" class="uk-button uk-button-primary">Get started</a>
@@ -301,18 +306,18 @@ gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.”
 
 <!-- Section Development Top -->
 
-<div class="tm-improvement tm-improvement_services uk-section" style="background-image: url('assets/images/improvement-services_bg-2.jpg')">
+<div id="development" class="tm-improvement tm-improvement_services uk-section" style="background-image: url('assets/images/improvement-services_bg-2.jpg')">
     <div class="uk-container uk-container-large">
         <div class="uk-width-5-6@m uk-margin-auto">
-            <h2 class="uk-margin-remove">Front-end and Back-end</h2>
-            <h2 class="uk-text-primary">Development Solutions</h2>
+            <h2 class="uk-margin-remove">Front-end and back-end</h2>
+            <h2 class="uk-text-primary">Development solutions</h2>
 
             <div class="tm-improvement__box uk-background-muted">
                 <div class="uk-grid uk-grid-large uk-flex-middle" uk-grid="">
                     <div class="uk-width-auto@m">
-                        <p class="uk-width-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                        <p class="uk-width-medium">We develop dependable and scalable solutions that meet your business needs. Our front-end
+team ensures your product functions and looks great, while our back-end team makes sure
+your product scales and works flawlessly.
 </p>
                     </div>
 
@@ -343,7 +348,7 @@ gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                                     <img class="tm-checkbox-image" src="assets/images/checkbox.png" width="27" alt="" />
                                 </th>
                                 <td>
-                                    <h5 class="uk-margin-remove">Mobile</h5>
+                                    <h5 class="uk-margin-remove">Mobile &amp; Web Applications</h5>
                                 </td>
                             </tr>
                             
@@ -352,7 +357,7 @@ gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                                     <img class="tm-checkbox-image" src="assets/images/checkbox.png" width="27" alt="" />
                                 </th>
                                 <td>
-                                    <h5 class="uk-margin-remove">Web</h5>
+                                    <h5 class="uk-margin-remove">API Integration</h5>
                                 </td>
                             </tr>
                             
@@ -370,7 +375,7 @@ gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                                     <img class="tm-checkbox-image" src="assets/images/checkbox.png" width="27" alt="" />
                                 </th>
                                 <td>
-                                    <h5 class="uk-margin-remove">QA &amp; UAT</h5>
+                                    <h5 class="uk-margin-remove">Quality Assurance &amp; UAT</h5>
                                 </td>
                             </tr>
                             
@@ -396,9 +401,7 @@ gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                 <div>
                     <h2 class="tm-h_bordered">Development</h2>
 
-                    <p class="uk-width-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    <p class="uk-width-medium">Our certified developers and solutions architects are experts in what they do.  We offer a range of services from migrations, replatforms and upgrades to infrastrucutre, custom features, and product implementations. 
 </p>
                 </div>
 
@@ -406,20 +409,17 @@ gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                     <ul class="tm-building__list uk-list">
                         
                         <li>
-                            <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
-                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-facilisis.
+                            <h4 class="uk-text-primary uk-margin-small-bottom">Development optimized for the end user.</h4>
+                            <p class="uk-margin-remove">Our developers work closely with your brand to align wwith your strategic
+ovjectives. We provide seamless execution of CSS, HTML and JavaScript that 
+bring beautiful user friendly products to life. 
 </p>
                         </li>
                         
                         <li>
-                            <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
-                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-facilisis.
+                            <h4 class="uk-text-primary uk-margin-small-bottom">Better development. Better outcomes.</h4>
+                            <p class="uk-margin-remove">Leave all the nerdy stuff to us so you can focus on growing your business.
+We stay up to date on the latest development platforms and trends so you don't have to.
 </p>
                         </li>
                         
@@ -434,18 +434,16 @@ facilisis.
 
 <!-- Section Design Top -->
 
-<div class="tm-improvement tm-improvement_services uk-section" style="background-image: url('assets/images/improvement-services_bg-3.jpg')">
+<div id="design" class="tm-improvement tm-improvement_services uk-section" style="background-image: url('assets/images/improvement-services_bg-3.jpg')">
     <div class="uk-container uk-container-large">
         <div class="uk-width-5-6@m uk-margin-auto">
-            <h2 class="uk-margin-remove">Lorem ipsum dolor sit amet</h2>
-            <h2 class="uk-text-primary">Sed do quis isum suspendisse.</h2>
+            <h2 class="uk-margin-remove">Design that enhances</h2>
+            <h2 class="uk-text-primary">the user experience.</h2>
 
             <div class="tm-improvement__box uk-background-muted">
                 <div class="uk-grid uk-grid-large uk-flex-middle" uk-grid="">
                     <div class="uk-width-auto@m">
-                        <p class="uk-width-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                        <p class="uk-width-medium">Design and development need to go hand in hand.  Design enables you to make the all important first impression that can change a would be bounce into a loyal customer.  Our team of designers are diverse experts in all things realting to design.  
 </p>
                     </div>
 
@@ -467,7 +465,7 @@ gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                                     <img class="tm-checkbox-image" src="assets/images/checkbox.png" width="27" alt="" />
                                 </th>
                                 <td>
-                                    <h5 class="uk-margin-remove">UX/UI Design</h5>
+                                    <h5 class="uk-margin-remove">UX | UI Design</h5>
                                 </td>
                             </tr>
                             
@@ -539,11 +537,8 @@ facilisis.
                         </li>
                         
                         <li>
-                            <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
-                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-facilisis.
+                            <h4 class="uk-text-primary uk-margin-small-bottom">Tell the story of your brand</h4>
+                            <p class="uk-margin-remove">Your brand story can be complex, but we prefer to keep your visual identity clean and simple.  This strategy creates an engaging user experience for your customers that translates into measurable results. 
 </p>
                         </li>
                         
@@ -558,18 +553,18 @@ facilisis.
 
 <!-- Section Strategy and Consulting Top -->
 
-<div class="tm-improvement tm-improvement_services uk-section" style="background-image: url('assets/images/improvement-services_bg-4.jpg')">
+<div id="strategy" class="tm-improvement tm-improvement_services uk-section" style="background-image: url('assets/images/improvement-services_bg-4.jpg')">
     <div class="uk-container uk-container-large">
         <div class="uk-width-5-6@m uk-margin-auto">
-            <h2 class="uk-margin-remove">Lorem ipsum dolor sit amet</h2>
-            <h2 class="uk-text-primary">Sed do quis isum suspendisse.</h2>
+            <h2 class="uk-margin-remove">We built businesses</h2>
+            <h2 class="uk-text-primary">before we built an agency.</h2>
 
             <div class="tm-improvement__box uk-background-muted">
                 <div class="uk-grid uk-grid-large uk-flex-middle" uk-grid="">
                     <div class="uk-width-auto@m">
-                        <p class="uk-width-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                        <p class="uk-width-medium">We were entrepreneurs before we were ecommerce experts. We've helped establish and grow 
+brands and the technology part evolved organically from that experience over a decade ago. 
+This gives MTN Haus a unique vantage point that most agencies never have. 
 </p>
                     </div>
 
@@ -582,7 +577,7 @@ gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                                     <img class="tm-checkbox-image" src="assets/images/checkbox.png" width="27" alt="" />
                                 </th>
                                 <td>
-                                    <h5 class="uk-margin-remove">Technology + Architecture</h5>
+                                    <h5 class="uk-margin-remove">Technology &amp; Architecture</h5>
                                 </td>
                             </tr>
                             
@@ -613,6 +608,15 @@ gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                                 </td>
                             </tr>
                             
+                            <tr>
+                                <th class="uk-text-primary">
+                                    <img class="tm-checkbox-image" src="assets/images/checkbox.png" width="27" alt="" />
+                                </th>
+                                <td>
+                                    <h5 class="uk-margin-remove">Launch &amp; Growth</h5>
+                                </td>
+                            </tr>
+                            
                             </tbody>
                         </table>
 
@@ -637,9 +641,7 @@ gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
 Consulting
 </h2>
 
-                    <p class="uk-width-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    <p class="uk-width-medium">We have worked at and with small businesses that became large businesses and understand the needs of both. Ecommerce is one part of a companies complex eco system and many companies struggle to seamlessly integrate all their systems.  We are here to help make that transition easier. 
 </p>
                 </div>
 
@@ -647,20 +649,15 @@ gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                     <ul class="tm-building__list uk-list">
                         
                         <li>
-                            <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
-                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-facilisis.
+                            <h4 class="uk-text-primary uk-margin-small-bottom">We do more than just technology.</h4>
+                            <p class="uk-margin-remove">We are a team that solves problems.  Our process is unique. Whether you are a new brand prepping to launch or an established brand that needs to determine what's next, we are here to deliver measurable results for your business.
 </p>
                         </li>
                         
                         <li>
-                            <h4 class="uk-text-primary uk-margin-small-bottom">Lorem Iipsum dolor sit amet?</h4>
-                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-facilisis.
+                            <h4 class="uk-text-primary uk-margin-small-bottom">Experience across industries.</h4>
+                            <p class="uk-margin-remove">Our experience has been broad and spans a range of industries including fitess, finance, 
+manufacturing, training, food and medicine. 
 </p>
                         </li>
                         
@@ -676,7 +673,7 @@ facilisis.
 <!-- Section Work with us -->
 <div id="tm-feedback" class="uk-section">
     <div class="uk-container uk-container-large">
-        <div class="uk-width-5-6@m uk-margin-auto">
+        <div class="uk-width-5-6@xl uk-margin-auto">
 
             <div id="wufoo-zc70bvd0043mjr"> Fill out my <a href="https://mtnhaus.wufoo.com/forms/zc70bvd0043mjr">online form</a>. </div> <script type="text/javascript"> var zc70bvd0043mjr; (function(d, t) { var s = d.createElement(t), options = { 'userName':'mtnhaus', 'formHash':'zc70bvd0043mjr', 'autoResize':true, 'height':'668', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { zc70bvd0043mjr = new WufooForm(); zc70bvd0043mjr.initialize(options); zc70bvd0043mjr.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
 
@@ -690,56 +687,89 @@ facilisis.
 
         <!--Footer-->
 <footer class="tm-footer uk-section">
-    <div class="uk-container uk-container-large">
-        <div class="uk-width-5-6@m uk-margin-auto">
-            <div class="uk-child-width-auto uk-grid uk-flex-between uk-flex-middle" uk-grid>
-                <div>
-                    <ul class="tm-footer__nav uk-subnav uk-margin-bottom" uk-margin>
-                        
-                        <li>
-                            <a href="link_to_terms" >
-                                
-                                Terms of Service
-                                
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="link_to_private_policy" >
-                                
-                                Privacy Policy
-                                
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="link_to_twitter" target="_blank">
-                                
-                                <img src="assets/images/twitter-icon.png" width="20" alt="">
-                                
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="link_to_linkedIn" target="_blank">
-                                
-                                <img src="assets/images/linkedIn-icon.png" width="18" alt="">
-                                
-                            </a>
-                        </li>
-                        
-                    </ul>
+    <div class="uk-container">
+        <div class="uk-child-width-auto uk-grid uk-flex-between uk-margin-small-bottom uk-hidden@s" uk-grid>
+            <div class="uk-width-1-2 uk-width-auto@s">
+                <ul class="tm-footer__nav uk-subnav" uk-margin>
+                    
+                    <li>
+                        <a href="link_to_terms" >
+                            Terms of Service
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="link_to_private_policy" >
+                            Privacy Policy
+                        </a>
+                    </li>
+                    
+                </ul>
 
-                    <div>© 2019 MTN Haus, LLC. All Rights Reserved.</div>
-                </div>
-
-                <div>
-                    <a href="/" class="tm-footer__logo">
-                        <img src="assets/images/logo_footer.png" width="53" alt="">
-                    </a>
-                </div>
             </div>
 
+            <div>
+                <ul class="tm-footer__nav uk-subnav" uk-margin>
+                    
+                    <li>
+                        <a href="link_to_twitter" target="_blank">
+                            <img src="assets/images/twitter-icon.png" width="20" alt="">
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="link_to_linkedIn" target="_blank">
+                            <img src="assets/images/linkedIn-icon.png" width="18" alt="">
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="uk-child-width-auto uk-grid uk-flex-between uk-flex-middle uk-margin-remove-top" uk-grid>
+            <div class="uk-width-3-5">
+               <div class="uk-flex uk-visible@s">
+                   <ul class="tm-footer__nav uk-subnav uk-margin-large-right" uk-margin>
+                       
+                       <li>
+                           <a href="link_to_terms" >
+                               Terms of Service
+                           </a>
+                       </li>
+                       
+                       <li>
+                           <a href="link_to_private_policy" >
+                               Privacy Policy
+                           </a>
+                       </li>
+                       
+                   </ul>
+                   <ul class="tm-footer__nav uk-subnav" uk-margin>
+                       
+                       <li>
+                           <a href="link_to_twitter" target="_blank">
+                               <img src="assets/images/twitter-icon.png" width="20" alt="">
+                           </a>
+                       </li>
+                       
+                       <li>
+                           <a href="link_to_linkedIn" target="_blank">
+                               <img src="assets/images/linkedIn-icon.png" width="18" alt="">
+                           </a>
+                       </li>
+                       
+                   </ul>
+               </div>
+
+                <div>© 2019 MTN Haus, LLC. All Rights Reserved.</div>
+            </div>
+
+            <div>
+                <a href="/" class="tm-footer__logo">
+                    <img src="assets/images/logo_footer.png" width="53" alt="">
+                </a>
+            </div>
         </div>
 
     </div>

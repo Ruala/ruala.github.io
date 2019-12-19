@@ -21,56 +21,62 @@
         <div class="uk-position-relative">
            <!--Header-->
 <header class="tm-header tm-header_dark uk-navbar-container uk-navbar-transparent uk-position-top uk-position-z-index">
-    <div class="uk-container uk-container-large">
-        <div class="uk-width-5-6@m uk-margin-auto">
-            <nav class="uk-navbar" uk-navbar>
-                <div class="uk-navbar-left">
+    <div class="uk-container">
+        <nav class="uk-navbar" uk-navbar>
+            <div class="uk-navbar-left">
 
-                    <!--mobile menu toggle-->
-                    <a href="#offcanvas-overlay" class="tm-navbar-toggle uk-navbar-toggle uk-hidden@m" uk-toggle>
-                        <span></span>
-                    </a>
+                <!--mobile menu toggle-->
+                <a href="#offcanvas-overlay" class="tm-navbar-toggle uk-navbar-toggle uk-hidden@s" uk-toggle>
+                    <span></span>
+                </a>
 
-                    <!--navbar menu-->
-                    <ul class="uk-navbar-nav uk-visible@m">
-                        
-                        <li >
-                            <a href="/about.html">About</a>
-                        </li>
-                        
-                        <li >
-                            <a href="/services.html">Services</a>
-                        </li>
-                        
-                        <li >
-                            <a href="/technology.html">Technology</a>
-                        </li>
-                        
-                    </ul>
+                <!--logo-->
+                <a class="uk-navbar-item uk-logo uk-logo_left uk-hidden@m" href="/">
+                    
+                    <img class="uk-logo__image" src="assets/images/logo_blue.png" width="61" alt="">
+                    
 
+                </a>
+
+                <!--navbar menu-->
+                <ul class="uk-navbar-nav uk-visible@s">
+                    
+                    <li >
+                        <a href="/about.html">About</a>
+                    </li>
+                    
+                    <li >
+                        <a href="/services.html">Services</a>
+                    </li>
+                    
+                    <li >
+                        <a href="/technology.html">Technology</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+
+            <div class="uk-navbar-center">
+                <!--logo-->
+                <a class="uk-navbar-item uk-logo" href="/">
+                    
+                    <img class="uk-logo__image" src="assets/images/logo_blue.png" width="61" alt="">
+                    
+
+                </a>
+
+            </div>
+
+            <div class="uk-navbar-right uk-visible@s">
+                <div class="uk-navbar-item">
+                    <a href="#tm-feedback"
+                       class="tm-header__button uk-button uk-button-secondary"
+                       uk-scroll>Work with us</a>
                 </div>
 
-                <div class="uk-navbar-center">
-                    <!--logo-->
-                    <a class="uk-navbar-item uk-logo" href="/">
-                        
-                        <img class="uk-logo__image" src="assets/images/logo_blue.png" width="61" alt="">
-                        
-
-                    </a>
-
-                </div>
-
-                <div class="uk-navbar-right uk-visible@m">
-                    <div class="uk-navbar-item">
-                        <a href="#tm-feedback"
-                           class="tm-header__button uk-button uk-button-secondary"
-                           uk-scroll>Work with us</a>
-                    </div>
-
-                </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </div>
 </header>
 
@@ -102,56 +108,89 @@
 
         <!--Footer-->
 <footer class="tm-footer uk-section">
-    <div class="uk-container uk-container-large">
-        <div class="uk-width-5-6@m uk-margin-auto">
-            <div class="uk-child-width-auto uk-grid uk-flex-between uk-flex-middle" uk-grid>
-                <div>
-                    <ul class="tm-footer__nav uk-subnav uk-margin-bottom" uk-margin>
-                        
-                        <li>
-                            <a href="link_to_terms" >
-                                
-                                Terms of Service
-                                
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="link_to_private_policy" >
-                                
-                                Privacy Policy
-                                
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="link_to_twitter" target="_blank">
-                                
-                                <img src="assets/images/twitter-icon.png" width="20" alt="">
-                                
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="link_to_linkedIn" target="_blank">
-                                
-                                <img src="assets/images/linkedIn-icon.png" width="18" alt="">
-                                
-                            </a>
-                        </li>
-                        
-                    </ul>
+    <div class="uk-container">
+        <div class="uk-child-width-auto uk-grid uk-flex-between uk-margin-small-bottom uk-hidden@s" uk-grid>
+            <div class="uk-width-1-2 uk-width-auto@s">
+                <ul class="tm-footer__nav uk-subnav" uk-margin>
+                    
+                    <li>
+                        <a href="link_to_terms" >
+                            Terms of Service
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="link_to_private_policy" >
+                            Privacy Policy
+                        </a>
+                    </li>
+                    
+                </ul>
 
-                    <div>© 2019 MTN Haus, LLC. All Rights Reserved.</div>
-                </div>
-
-                <div>
-                    <a href="/" class="tm-footer__logo">
-                        <img src="assets/images/logo_footer.png" width="53" alt="">
-                    </a>
-                </div>
             </div>
 
+            <div>
+                <ul class="tm-footer__nav uk-subnav" uk-margin>
+                    
+                    <li>
+                        <a href="link_to_twitter" target="_blank">
+                            <img src="assets/images/twitter-icon.png" width="20" alt="">
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="link_to_linkedIn" target="_blank">
+                            <img src="assets/images/linkedIn-icon.png" width="18" alt="">
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="uk-child-width-auto uk-grid uk-flex-between uk-flex-middle uk-margin-remove-top" uk-grid>
+            <div class="uk-width-3-5">
+               <div class="uk-flex uk-visible@s">
+                   <ul class="tm-footer__nav uk-subnav uk-margin-large-right" uk-margin>
+                       
+                       <li>
+                           <a href="link_to_terms" >
+                               Terms of Service
+                           </a>
+                       </li>
+                       
+                       <li>
+                           <a href="link_to_private_policy" >
+                               Privacy Policy
+                           </a>
+                       </li>
+                       
+                   </ul>
+                   <ul class="tm-footer__nav uk-subnav" uk-margin>
+                       
+                       <li>
+                           <a href="link_to_twitter" target="_blank">
+                               <img src="assets/images/twitter-icon.png" width="20" alt="">
+                           </a>
+                       </li>
+                       
+                       <li>
+                           <a href="link_to_linkedIn" target="_blank">
+                               <img src="assets/images/linkedIn-icon.png" width="18" alt="">
+                           </a>
+                       </li>
+                       
+                   </ul>
+               </div>
+
+                <div>© 2019 MTN Haus, LLC. All Rights Reserved.</div>
+            </div>
+
+            <div>
+                <a href="/" class="tm-footer__logo">
+                    <img src="assets/images/logo_footer.png" width="53" alt="">
+                </a>
+            </div>
         </div>
 
     </div>
