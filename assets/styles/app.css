@@ -12686,6 +12686,10 @@ iframe.uk-cover {
   color: #fff;
   background-color: #2d2a26;
 }
+.tm-footer__nav {
+  display: block;
+  margin-bottom: 0;
+}
 .tm-footer__nav > * > :first-child {
   font-size: 14px;
   color: #fff;
@@ -12694,6 +12698,17 @@ iframe.uk-cover {
 .tm-footer__nav > * > a:hover,
 .tm-footer__nav > * > a:focus {
   color: #e63d26;
+}
+.tm-footer__nav > li + li {
+  margin-top: 15px;
+}
+.tm-footer__link {
+  color: #fff;
+}
+.tm-footer__link:hover,
+.tm-footer__link:focus {
+  color: #e63d26;
+  text-decoration: none;
 }
 .tm-footer__logo {
   display: block;
@@ -12705,16 +12720,29 @@ iframe.uk-cover {
 .tm-footer__logo:focus {
   color: #fff;
 }
+.tm-footer__phone {
+  margin-bottom: 15px;
+}
 @media (min-width: 640px) {
   .tm-footer {
     padding: 30px 0;
   }
   .tm-footer__nav {
+    margin-right: 50px;
     margin-top: 0;
-    margin-bottom: 15px;
   }
   .tm-footer__logo {
     width: 52px;
+  }
+}
+@media (min-width: 960px) {
+  .tm-footer__nav {
+    display: flex;
+    margin-bottom: 15px;
+    margin-right: 70px;
+  }
+  .tm-footer__nav > li + li {
+    margin-top: 0;
   }
 }
 .tm-pageheader {

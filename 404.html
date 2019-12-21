@@ -7,7 +7,6 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>MTN HAUS</title>
 
-<link rel="stylesheet" href="assets/styles/vendors.css">
 <link rel="stylesheet" href="assets/styles/app.css">
 
 <!--add font from google fonts-->
@@ -107,51 +106,14 @@
         </div>
 
         <!--Footer-->
+
 <footer class="tm-footer uk-section">
     <div class="uk-container">
-        <div class="uk-child-width-auto uk-grid uk-flex-between uk-margin-small-bottom uk-hidden@s" uk-grid>
-            <div class="uk-width-1-2 uk-width-auto@s">
-                <ul class="tm-footer__nav uk-subnav" uk-margin>
-                    
-                    <li>
-                        <a href="link_to_terms" >
-                            Terms of Service
-                        </a>
-                    </li>
-                    
-                    <li>
-                        <a href="link_to_private_policy" >
-                            Privacy Policy
-                        </a>
-                    </li>
-                    
-                </ul>
 
-            </div>
-
-            <div>
-                <ul class="tm-footer__nav uk-subnav" uk-margin>
-                    
-                    <li>
-                        <a href="link_to_twitter" target="_blank">
-                            <img src="assets/images/twitter-icon.png" width="20" alt="">
-                        </a>
-                    </li>
-                    
-                    <li>
-                        <a href="link_to_linkedIn" target="_blank">
-                            <img src="assets/images/linkedIn-icon.png" width="18" alt="">
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </div>
-
-        <div class="uk-child-width-auto uk-grid uk-flex-between uk-flex-middle uk-margin-remove-top" uk-grid>
-            <div class="uk-width-3-5">
-               <div class="uk-flex uk-visible@s">
-                   <ul class="tm-footer__nav uk-subnav uk-margin-large-right" uk-margin>
+        <div class="uk-grid uk-flex-between uk-flex-middle uk-margin-remove-top" uk-grid>
+            <div class="uk-width-expand@s uk-width-1-2@m">
+               <div class="uk-flex uk-flex-between uk-flex-left@s">
+                   <ul class="tm-footer__nav uk-subnav">
                        
                        <li>
                            <a href="link_to_terms" >
@@ -166,7 +128,7 @@
                        </li>
                        
                    </ul>
-                   <ul class="tm-footer__nav uk-subnav" uk-margin>
+                   <ul class="uk-subnav uk-flex-nowrap uk-margin-remove-vertical">
                        
                        <li>
                            <a href="link_to_twitter" target="_blank">
@@ -181,15 +143,42 @@
                        </li>
                        
                    </ul>
+
+                   <div class="uk-width-auto uk-hidden@s">
+                       <a href="/" class="tm-footer__logo">
+                           <img src="assets/images/logo_footer.png" width="53" alt="">
+                       </a>
+                   </div>
                </div>
 
-                <div>© 2019 MTN Haus, LLC. All Rights Reserved.</div>
+                <div class="uk-visible@m">© 2019 MTN Haus, LLC. All Rights Reserved.</div>
             </div>
 
-            <div>
+            <div class="uk-width-expand">
+                <div class="tm-footer__phone uk-flex">
+                    <div class="h6 uk-margin-small-right">Phone Number:</div>
+                    <div>
+                        <a href="skype:7204573578?call" class="tm-footer__link">720.457.3578</a>
+                    </div>
+                </div>
+
+                <div class="uk-flex">
+                    <div class="h6 uk-margin-small-right">Email:</div>
+                    <div>
+                        <a href="mailto:hello@mtnhausdigital.com" class="tm-footer__link">hello@mtnhausdigital.com</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="uk-width-auto uk-visible@s">
                 <a href="/" class="tm-footer__logo">
                     <img src="assets/images/logo_footer.png" width="53" alt="">
                 </a>
+            </div>
+
+            <div class="uk-width-1-1 uk-hidden@m">
+                <div>© 2019 MTN Haus, LLC. All Rights Reserved.</div>
             </div>
         </div>
 
@@ -238,7 +227,7 @@
 
 </div>
 
-<script src="assets/scripts/vendors.js"></script>
-<script src="assets/scripts/app.js"></script>
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
 </body>
 </html>
