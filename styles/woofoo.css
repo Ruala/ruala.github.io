@@ -96,6 +96,11 @@ form p.error {
         font-size: 40px !important;
         line-height: 50px;
     }
+
+    .wufoo input.btTxt {
+        width: auto;
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 960px) {
