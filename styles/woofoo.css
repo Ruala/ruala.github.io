@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
 
 .wufoo .info {
     padding: 0;
@@ -6,7 +6,7 @@
 }
 
 .wufoo .info h2 {
-    font-size: 35px !important;
+    font-size: 25px !important;
     font-family:  'Roboto', sans-serif;
     font-weight: 900;
     color: #093251 !important;
@@ -61,15 +61,15 @@ form li.buttons {
 
 .wufoo input.btTxt {
     font-family: 'Roboto', sans-serif;
-    /*font-family: 'PT Sans', sans-serif;*/
     font-size: 16px;
     font-weight: 900;
     letter-spacing: 1px;
     display: inline-block;
+    width: 100%;
     box-sizing: border-box;
     padding: 0 30px;
     vertical-align: middle;
-    line-height: 46px;
+    line-height: 44px;
     color: #fff;
     background: #093251;
     border: 1px solid transparent;
@@ -93,32 +93,32 @@ form p.error {
 @media (min-width: 640px) {
 
     .wufoo .info h2 {
-        font-size: 55px !important;
-        line-height: 60px;
+        font-size: 40px !important;
+        line-height: 50px;
     }
 }
 
 @media (min-width: 960px) {
 
     .wufoo .info h2 {
-        font-size: 65px !important;
-        line-height: 70px;
+        font-size: 45px !important;
+        line-height: 55px;
     }
 }
 
 @media (min-width: 1200px) {
 
     .wufoo .info h2 {
-        font-size: 70px !important;
-        line-height: 80px;
+        font-size: 50px !important;
+        line-height: 60px;
     }
 }
 
 @media (min-width: 1600px) {
 
     .wufoo .info h2 {
-        font-size: 85px !important;
-        line-height: 100px;
+        font-size: 65px !important;
+        line-height: 80px;
     }
 }
 
