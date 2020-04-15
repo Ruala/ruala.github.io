@@ -1,6 +1,10 @@
 body {
   overflow-y: auto; }
 
+.width-expand {
+  min-width: 1px;
+  max-width: 100%; }
+
 .side-header {
   padding: 11px 10px;
   border-bottom-color: transparent; }
@@ -42,19 +46,29 @@ body {
   .start-message__card {
     border-radius: 20px; }
 
-.theme-icon_large {
-  width: 6rem;
-  height: 6rem; }
+.theme-icon {
+  position: relative;
+  width: 6rem; }
+  .theme-icon__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px; }
+  .theme-icon_large {
+    width: 8rem; }
+    .theme-icon_large .theme-icon__text {
+      font-size: 24px; }
+  .theme-icon_small {
+    width: 4rem; }
+  .theme-icon_xsmall {
+    width: 3rem; }
 
 .team-structure {
+  display: flex;
   position: relative; }
   .team-structure .tab-content {
-    position: absolute;
-    top: 0;
-    left: calc(100% + 20px);
-    bottom: 0;
-    min-width: 300px;
-    max-width: 100%; }
+    margin-left: 20px; }
   .team-structure .tab-pane, .team-structure .card {
     height: 100%;
     border: none;
@@ -76,13 +90,38 @@ body {
     .team-structure__list .btn.active::after {
       opacity: 1; }
 
+.progress {
+  border: 1px solid #0774f8; }
+  .progress__value {
+    width: 55px;
+    min-height: 30px;
+    font-size: 20px; }
+
 .dark-mode .side-header {
   border-bottom-color: transparent; }
 
+@media (min-width: 576px) {
+  .team-structure .tab-content {
+    min-width: 300px;
+    max-width: 100%; }
+  .team-structure__list {
+    min-width: 100px;
+    max-width: 100%; } }
 @media (min-width: 992px) {
   .start-message {
     padding-top: 160px; }
     .start-message__card {
-      padding: 30px 60px; } }
+      padding: 30px 60px; }
+
+  .counter-status_left {
+    position: absolute;
+    top: 0;
+    left: 0; } }
+@media (min-width: 1200px) {
+  .team-structure .tab-content {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    bottom: 0; } }
 
 /*# sourceMappingURL=custom.css.map */
