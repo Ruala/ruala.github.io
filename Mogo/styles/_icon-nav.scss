@@ -1,0 +1,39 @@
+.icon-nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  background-color: $primary-color;
+
+  /* Element item */
+  &__item {
+    margin-right: 1px;
+
+    &:last-child { margin-right: 0; }
+  }
+
+  /* Element link */
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    text-decoration: none;
+    background-color: $secondary-color;
+
+    &:hover {
+      background-color: $primary-color;
+
+      .icon-nav__icon { fill: $inverse-color; }
+    }
+  }
+
+  /* Element icon */
+  &__icon {
+    width: 26px;
+    height: 26px;
+    fill: $primary-color;
+    transition: fill .2s ease-in-out;
+  }
+}

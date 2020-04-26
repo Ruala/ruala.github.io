@@ -1,0 +1,67 @@
+.offcanvas {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  touch-action: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0, .2);
+    opacity: 0;
+    transition: opacity .2s linear;
+  }
+
+  /* Element bar */
+  &__bar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -100%;
+    width: 270px;
+    padding: 40px 20px 20px;
+    color: $inverse-color;
+    background: $primary-color;
+    overflow-y: auto;
+    transition: left .3s ease-out;
+  }
+
+  /* Element close */
+  &__close {
+    position: absolute;
+    z-index: 1050;
+    top: 20px;
+    right: 20px;
+    padding: 5px;
+    color: $inverse-color;
+    text-shadow: none;
+    background-color: transparent;
+    border: none;
+    opacity: 1;
+
+    &:hover {
+      color: $inverse-color;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  /* Modifiers open */
+  &_open {
+    display: block;
+
+    &::before {
+      opacity: 1;
+    }
+  }
+}

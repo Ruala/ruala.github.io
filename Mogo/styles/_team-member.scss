@@ -1,0 +1,22 @@
+.team-member {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+
+  @media (min-width: $breakpoint-sm) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* Element title */
+  &__title { margin-bottom: 10px; }
+
+  /* Element about */
+  &__about {
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  /* Element photo */
+  &__photo { margin-bottom: 30px; }
+}

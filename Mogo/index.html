@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mogo</title>
+
+  <!--add styles-->
+  <link rel="stylesheet" href="./styles/styles.css">
+  <!--add font from google fonts-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;1,300&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+
+<!-- page wrapper-->
+<div class="page">
+  <div>
+    <!-- pageheader wrapper -->
+    <div class="pageheader">
+      <!-- page header -->
+      <header class="header pageheader__header">
+        <div class="container header__container">
+          <a class="logo" href="/">MoGo</a>
+
+          <!-- main menu -->
+          <nav class="menu header__menu">
+            <a class="menu__item menu__item_active" href="#">About</a>
+            <a class="menu__item" href="#">Service</a>
+            <a class="menu__item" href="#">Work</a>
+            <a class="menu__item" href="#">Blog</a>
+            <a class="menu__item" href="#">Contact</a>
+            <a class="menu__item" href="#">
+              <svg class="icon menu__icon" role="img" aria-label="shopping cart">
+                <use xlink:href="images/sprite.svg#shopping-cart"></use>
+              </svg>
+            </a>
+            <a class="menu__item" href="#">
+              <svg class="icon menu__icon" role="img" aria-label="search">
+                <use xlink:href="images/sprite.svg#magnifying-glass"></use>
+              </svg>
+            </a>
+          </nav>
+
+          <button class="btn btn_theme_inverse btn_view_mobile js-offcanvas-open" type="button">Menu</button>
+        </div>
+      </header>
+
+      <!-- pageheader content -->
+      <section class="section pageheader__section" aria-labelledby="pageheader-title">
+        <div class="container">
+          <div class="title-top pageheader__title-top">Creative Template</div>
+          <h1 class="pageheader__title" id="pageheader-title">Welcome <br> to MoGo</h1>
+          <button class="btn btn_theme_inverse" type="button">Learn more</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- page main-->
+    <main>
+      <!-- service section -->
+      <section class="section" aria-labelledby="services-title">
+        <div class="container">
+          <div class="title-top section__title-top">We work with</div>
+          <h2 class="section__title" id="services-title">Amazing Services</h2>
+
+          <!-- service grid-->
+          <div class="grid">
+            <!-- service column -->
+            <div class="col-sm-6 col-md-4">
+              <!-- service item-->
+              <div class="service">
+                <svg class="icon service__icon" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#alarm"></use>
+                </svg>
+                <div class="service__info">
+                  <h3 class="service__title">Photography</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- service column -->
+            <div class="col-sm-6 col-md-4">
+              <!-- service item-->
+              <div class="service">
+                <svg class="icon service__icon" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#line-graph"></use>
+                </svg>
+
+                <div class="service__info">
+                  <h3 class="service__title">Web Design</h3>
+                  <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- service column -->
+            <div class="col-sm-6 col-md-4">
+              <!-- service item-->
+              <div class="service">
+                <svg class="icon service__icon" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#computer-ok"></use>
+                </svg>
+
+                <div class="service__info">
+                  <h3 class="service__title">Creativity</h3>
+                  <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- service column -->
+            <div class="col-sm-6 col-md-4">
+              <!-- service item-->
+              <div class="service">
+                <svg class="icon service__icon" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#book-2"></use>
+                </svg>
+
+                <div class="service__info">
+                  <h3 class="service__title">SEO</h3>
+                  <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- service column -->
+            <div class="col-sm-6 col-md-4">
+              <!-- service item-->
+              <div class="service">
+                <svg class="icon service__icon" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#home"></use>
+                </svg>
+
+                <div class="service__info">
+                  <h3 class="service__title">Css/Html</h3>
+                  <p>Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- service column -->
+            <div class="col-sm-6 col-md-4">
+              <!-- service item-->
+              <div class="service">
+                <svg class="icon service__icon" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#image"></use>
+                </svg>
+
+                <div class="service__info">
+                  <h3 class="service__title">Digital</h3>
+                  <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- our team section -->
+      <section class="section" aria-labelledby="our-team-title">
+        <div class="container">
+          <div class="title-top section__title-top">Who we are</div>
+          <h2 class="section__title" id="our-team-title">Meet our team</h2>
+          <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+
+          <!-- our team grid-->
+          <div class="grid">
+            <!-- our team column -->
+            <div class="col-sm-6 col-md-4">
+              <!-- our team item-->
+              <div class="team-member">
+                <!-- photo -->
+                <div class="photo team-member__photo">
+                  <div class="photo__container">
+                    <picture class="photo__image">
+                      <source srcset="images/team/photo-1@2x.jpg 2x">
+                      <img src="images/team/photo-1.jpg" alt="Matthew Dix" aria-hidden="true">
+                    </picture>
+                    <div class="photo__controls">
+                      <!-- social media menu for team member -->
+                      <ul class="icon-nav">
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#" target="_blank" aria-label="Link to facebook">
+                            <svg class="icon icon-nav__icon" aria-hidden="true">
+                              <use xlink:href="images/sprite.svg#facebook"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#" target="_blank" aria-label="Link to twitter">
+                            <svg class="icon icon-nav__icon" aria-hidden="true">
+                              <use xlink:href="images/sprite.svg#twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#" target="_blank" aria-label="Link to pinterest">
+                            <svg class="icon icon-nav__icon" aria-hidden="true">
+                              <use xlink:href="images/sprite.svg#pinterest"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#" target="_blank" aria-label="Link to instagram">
+                            <svg class="icon icon-nav__icon" aria-hidden="true">
+                              <use xlink:href="images/sprite.svg#instagram"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="team-member__title">Matthew Dix</h3>
+                <div class="team-member__about">Graphic Design</div>
+              </div>
+            </div>
+
+            <!-- our team column -->
+            <div class="col-sm-6 col-md-4">
+              <!-- our team item-->
+              <div class="team-member">
+                <!-- photo -->
+                <div class="photo team-member__photo">
+                  <div class="photo__container">
+                    <picture class="photo__image">
+                      <source srcset="images/team/photo-2@2x.jpg 2x">
+                      <img src="images/team/photo-2.jpg" alt="Christopher Campbell" aria-hidden="true">
+                    </picture>
+                    <div class="photo__controls">
+                      <!-- social media menu for team member -->
+                      <ul class="icon-nav">
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#" target="_blank" aria-label="Link to facebook">
+                            <svg class="icon icon-nav__icon" aria-hidden="true">
+                              <use xlink:href="images/sprite.svg#facebook"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#" target="_blank" aria-label="Link to twitter">
+                            <svg class="icon icon-nav__icon" aria-hidden="true">
+                              <use xlink:href="images/sprite.svg#twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#" target="_blank" aria-label="Link to pinterest">
+                            <svg class="icon icon-nav__icon" aria-hidden="true">
+                              <use xlink:href="images/sprite.svg#pinterest"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#" target="_blank" aria-label="Link to instagram">
+                            <svg class="icon icon-nav__icon" aria-hidden="true">
+                              <use xlink:href="images/sprite.svg#instagram"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="team-member__title">Christopher Campbell</h3>
+                <div class="team-member__about">Branding/UX design</div>
+              </div>
+            </div>
+
+            <!-- our team column -->
+            <div class="col-sm-6 col-md-4">
+              <!-- our team item-->
+              <div class="team-member">
+                <!-- photo -->
+                <div class="photo team-member__photo">
+                  <div class="photo__container">
+                    <picture class="photo__image">
+                      <source srcset="images/team/photo-3@2x.jpg 2x">
+                      <img src="images/team/photo-3.jpg" alt="Michael Fertig" aria-hidden="true">
+                    </picture>
+                    <div class="photo__controls">
+                      <!-- social media menu for team member -->
+                      <ul class="icon-nav">
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#" target="_blank" aria-label="Link to facebook">
+                            <svg class="icon icon-nav__icon" aria-hidden="true">
+                              <use xlink:href="images/sprite.svg#facebook"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#" target="_blank" aria-label="Link to twitter">
+                            <svg class="icon icon-nav__icon" aria-hidden="true">
+                              <use xlink:href="images/sprite.svg#twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#" target="_blank" aria-label="Link to pinterest">
+                            <svg class="icon icon-nav__icon" aria-hidden="true">
+                              <use xlink:href="images/sprite.svg#pinterest"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#" target="_blank" aria-label="Link to instagram">
+                            <svg class="icon icon-nav__icon" aria-hidden="true">
+                              <use xlink:href="images/sprite.svg#instagram"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="team-member__title">Michael Fertig</h3>
+                <div class="team-member__about">Developer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </div>
+
+  <!-- page footer -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="copyright">&copy; 2016 MoGo free PSD template by <a href="#">Laaqiq</a></div>
+
+      <form action="/" class="subscribe-form">
+        <input class="subscribe-form__input" type="email" placeholder="Your Email..." aria-label="Input you e-mail">
+        <button class="btn btn_theme_default subscribe-form__button" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </footer>
+</div>
+
+<!-- mobile menu -->
+<div class="offcanvas">
+  <div class="offcanvas__bar">
+    <button class="btn offcanvas__close js-offcanvas-close" type="button" aria-label="Close">&#10060;</button>
+
+    <!-- main menu -->
+    <nav class="menu menu_vertical">
+      <a class="menu__item menu__item_active" href="#">About</a>
+      <a class="menu__item" href="#">Service</a>
+      <a class="menu__item" href="#">Work</a>
+      <a class="menu__item" href="#">Blog</a>
+      <a class="menu__item" href="#">Contact</a>
+      <a class="menu__item" href="#">
+        <svg class="icon menu__icon">
+          <use xlink:href="images/sprite.svg#shopping-cart"></use>
+        </svg>
+      </a>
+      <a class="menu__item" href="#">
+        <svg class="icon menu__icon">
+          <use xlink:href="images/sprite.svg#magnifying-glass"></use>
+        </svg>
+      </a>
+    </nav>
+
+  </div>
+</div>
+
+<!-- add js -->
+<script
+  src="https://code.jquery.com/jquery-3.5.0.min.js"
+  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+  crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

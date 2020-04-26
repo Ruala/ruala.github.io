@@ -1,0 +1,21 @@
+.header {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  /* Element container */
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Element menu */
+  &__menu { display: none; }
+}
+
+
+
+@media (min-width: $breakpoint-md) {
+  .header__menu { display: flex; }
+}

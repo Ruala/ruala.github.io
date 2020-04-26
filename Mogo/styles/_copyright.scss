@@ -1,0 +1,10 @@
+.copyright {
+  padding-bottom: 10px;
+  font-family: $global-heading-family;
+  font-size: 14px;
+  color: $global-heading-color;
+
+  @media (min-width: $breakpoint-md) {
+    padding-bottom: 0;
+  }
+}

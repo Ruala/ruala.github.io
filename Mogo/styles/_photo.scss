@@ -1,0 +1,48 @@
+.photo {
+  position: relative;
+  background-color: $quaternary-color;
+
+  &:hover {
+
+    .photo__container {
+      top: -10px;
+      left: -10px;
+    }
+
+    .photo__controls { opacity: 1; }
+  }
+
+  /* Element container */
+  &__container {
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: all .2s ease-in-out;
+  }
+
+  /* Element controls */
+  &__controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(0deg, #f0e290 0%, #e98a89 100%);
+      opacity: .9;
+    }
+  }
+}
+
