@@ -554,14 +554,11 @@ h3 {
   /* Element container */
   /* Element controls */ }
   .photo:hover .photo__container {
-    top: -10px;
-    left: -10px; }
+    transform: translate(-10px, -10px); }
   .photo:hover .photo__controls {
     opacity: 1; }
   .photo__container {
     position: relative;
-    top: 0;
-    left: 0;
     transition: all .2s ease-in-out; }
   .photo__controls {
     position: absolute;

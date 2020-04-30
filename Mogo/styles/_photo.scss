@@ -5,8 +5,7 @@
   &:hover {
 
     .photo__container {
-      top: -10px;
-      left: -10px;
+      transform: translate(-10px, -10px);
     }
 
     .photo__controls { opacity: 1; }
@@ -15,8 +14,6 @@
   /* Element container */
   &__container {
     position: relative;
-    top: 0;
-    left: 0;
     transition: all .2s ease-in-out;
   }
 
