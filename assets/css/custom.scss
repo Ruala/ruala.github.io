@@ -20,6 +20,10 @@ body {
   background-color: $global-primary-color;
 }
 
+.mobile-header .header-brand {
+  line-height: 1;
+}
+
 .side-header {
   padding: 11px 10px;
   border-bottom-color: transparent;
@@ -70,15 +74,6 @@ body {
 .page-header {
   position: relative;
   justify-content: center;
-  padding-left: 80px;
-  padding-right: 80px;
-
-  .language-menu {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-  }
 }
 
 .page-title {
@@ -255,6 +250,22 @@ body {
   }
 }
 
+.card.bg-warning {
+  color: #000;
+}
+
+.purchase {
+
+  .btn.disabled, .btn:disabled {
+    color: #fff;
+    background: #6c757d !important;
+    border-color: #6c757d;
+    box-shadow: 0 5px 10px rgba(108, 117, 125, 0.3);
+    opacity: 1;
+    cursor: default;
+  }
+}
+
 @media (min-width: 576px) {
 
   .team-structure {
@@ -271,7 +282,27 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+
+  .page-header {
+    justify-content: space-between;
+  }
+}
+
 @media (min-width: 992px) {
+
+  .page-header {
+    justify-content: center;
+    padding-left: 220px;
+    padding-right: 220px;
+
+    &__controls {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+    }
+  }
 
   .start-message {
     padding-top: 160px;
@@ -310,12 +341,9 @@ body {
   }
 }
 
-@media (max-width: 991px) {
+@media (min-width: 1280px) {
 
-  .page-header {
-
-    .language-menu {
-      right: 15px;
-    }
+  .roulette-wrapper {
+    padding-top: 40px;
   }
 }
