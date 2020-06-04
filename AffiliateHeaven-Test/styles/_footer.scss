@@ -1,0 +1,10 @@
+.footer {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #1a2b36;
+
+  &__logo {
+    display: inline-block;
+    width: 10em;
+  }
+}
